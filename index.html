@@ -178,7 +178,7 @@ position: static;
 t_onFuncLoad('t702_initPopup', function () {
 t702_initPopup('753778247');
 });
-});function t_forms__initForms() {
+})function t_forms__initForms() {
     var recBlocks = document.querySelectorAll('.r:not([data-record-type="1093"])');
     window.t_forms__inputData = {};
     t_forms__addRecaptcha();
@@ -226,44 +226,23 @@ function t_forms__submitEvent(event) {
         formObject[key] = value;
     });
 
-    // Отправляем данные в Telegram
-    t_forms__sendToTelegram(formObject, btnSubmit);
+    // Переходим по ссылке
+    t_forms__redirectToLink(formObject, btnSubmit);
 }
 
-function t_forms__sendToTelegram(data, btnSubmit) {
-    var apiToken = "YOUR_TELEGRAM_BOT_API_TOKEN";  // Замените на ваш токен
-    var chatId = "YOUR_CHAT_ID";  // Замените на ваш ID чата или имя канала
+function t_forms__redirectToLink(data, btnSubmit) {
+    var redirectUrl = "https://example.com";  // Замените на нужную вам ссылку
 
-    var message = "Новая заявка:\n";
-    for (var key in data) {
-        message += key + ": " + data[key] + "\n";
-    }
+    // Вставка данных в URL, если это требуется
+    var queryString = new URLSearchParams(data).toString();
+    var finalUrl = `${redirectUrl}?${queryString}`;
 
-    var url = `https://api.telegram.org/bot${apiToken}/sendMessage`;
-    var params = {
-        chat_id: chatId,
-        text: message,
-    };
+    // Переход по ссылке
+    window.location.href = finalUrl;
 
-    fetch(url, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(params),
-    })
-    .then(response => response.json())
-    .then(result => {
-        console.log("Отправлено в Telegram:", result);
-        btnSubmit.classList.remove("t-btn_sending");
-        btnSubmit.tildaSendingStatus = "0";
-    })
-    .catch(error => {
-        console.error("Ошибка при отправке в Telegram:", error);
-        btnSubmit.classList.remove("t-btn_sending");
-        btnSubmit.tildaSendingStatus = "0";
-    });
+    // Вы можете добавить дополнительную обработку здесь, если необходимо
 }
+
 t_onReady(function () {
 var rec = document.querySelector('#rec608549024');
 if (!rec) return;
