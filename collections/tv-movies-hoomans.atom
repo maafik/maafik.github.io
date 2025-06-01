@@ -1,0 +1,4056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://iconicpaw.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://iconicpaw.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://iconicpaw.com/collections/tv-movies-hoomans.atom"/>
+  <title>Iconic Paw</title>
+  <updated>2024-07-02T15:43:12-07:00</updated>
+  <author>
+    <name>Iconic Paw</name>
+  </author>
+  <entry>
+    <id>https://iconicpaw.com/products/8578276655331</id>
+    <published>2024-07-02T15:43:12-07:00</published>
+    <updated>2024-07-02T15:43:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/galactic-lord-duo"/>
+    <title>Galactic Lord Duo</title>
+    <s:type></s:type>
+    <s:vendor>IconicPaw</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/Template6starwars2in1MockupCanvas.jpg?v=1719960172"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>IconicPaw<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            99.95 - 249.95
+            <a href="https://iconicpaw.com/products/galactic-lord-duo">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-block="true" data-editor="4gqct" data-offset-key="av62t-0-0" style="text-align: center;">
+<meta charset="utf-8">
+<p><strong>387% Satisfaction Guarantee (Yep, No Typo, We Mean it!)</strong><br></p>
+<p><strong><br>A ONE OF A KIND MASTERPIECE FEATURING YOUR PET and YOU<br></strong></p>
+<p><strong>6 Inspiring Reasons You Should Own An Iconic Paw Portrait</strong></p>
+<ul>
+<li style="text-align: left;"><strong>It's One Of A Kind</strong></li>
+<li style="text-align: left;"><strong>Printed on Ready To Hang Gallery Quality Canvas</strong></li>
+<li style="text-align: left;">
+<strong>Fixes Bad Moods</strong><span> </span>in Seconds</li>
+<li style="text-align: left;">
+<strong>98.7% Guaranteed<span> </span></strong>to make people laugh (Yes it's true)</li>
+<li style="text-align: left;">
+<strong>Officially lets your pet know</strong><span> </span>that you think they're<span> </span>a big deal</li>
+<li style="text-align: left;">
+<strong>Created by Real Artists</strong><span> </span>that draw pet portraits every day</li>
+</ul>
+<p><span>We turn you and your pet's photo into a Masterpiece. </span>Simply upload your favorite pet photo, and our artists will work their magic.</p>
+<p><strong>P.S. Iconic Paw Portraits make the perfect gift for all pet parents.</strong></p>
+<meta charset="utf-8">
+<p>So what are you waiting for?</p>
+<p><span>Join the growing family of Iconic Paw and before long, you’ll be enjoying side-splitting laughter at people’s reactions!</span> <br><br></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>2 in 1</s:tag>
+    <s:tag>2 pets in 1</s:tag>
+    <s:tag>All Custom Portraits - Collection</s:tag>
+    <s:tag>Artwork Approval Checkbox</s:tag>
+    <s:tag>Canvas</s:tag>
+    <s:tag>dog</s:tag>
+    <s:tag>dogs</s:tag>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>Male</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Pet Photo</s:tag>
+    <s:tag>Revenue</s:tag>
+    <s:tag>Star Wars</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Canvas / 24 x 32</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Black Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>White Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578276655331</id>
+      <title>Brown Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/8578266300643</id>
+    <published>2024-07-02T15:39:00-07:00</published>
+    <updated>2024-07-02T15:39:00-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/dark-side-duel"/>
+    <title>Dark Side Duel</title>
+    <s:type></s:type>
+    <s:vendor>IconicPaw</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/Template5starwars2in1MockupCanvas.jpg?v=1719959898"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>IconicPaw<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            99.95 - 249.95
+            <a href="https://iconicpaw.com/products/dark-side-duel">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;" data-offset-key="av62t-0-0" data-editor="4gqct" data-block="true">
+<meta charset="utf-8">
+<p><strong>387% Satisfaction Guarantee (Yep, No Typo, We Mean it!)</strong><br></p>
+<p><strong><br>A ONE OF A KIND MASTERPIECE FEATURING YOUR PET and YOU<br></strong></p>
+<p><strong>6 Inspiring Reasons You Should Own An Iconic Paw Portrait</strong></p>
+<ul>
+<li style="text-align: left;"><strong>It's One Of A Kind</strong></li>
+<li style="text-align: left;"><strong>Printed on Ready To Hang Gallery Quality Canvas</strong></li>
+<li style="text-align: left;">
+<strong>Fixes Bad Moods</strong><span> </span>in Seconds</li>
+<li style="text-align: left;">
+<strong>98.7% Guaranteed<span> </span></strong>to make people laugh (Yes it's true)</li>
+<li style="text-align: left;">
+<strong>Officially lets your pet know</strong><span> </span>that you think they're<span> </span>a big deal</li>
+<li style="text-align: left;">
+<strong>Created by Real Artists</strong><span> </span>that draw pet portraits every day</li>
+</ul>
+<p><span>We turn you and your pet's photo into a Masterpiece. </span>Simply upload your favorite pet photo, and our artists will work their magic.</p>
+<p><strong>P.S. Iconic Paw Portraits make the perfect gift for all pet parents.</strong></p>
+<meta charset="utf-8">
+<p>So what are you waiting for?</p>
+<p><span>Join the growing family of Iconic Paw and before long, you’ll be enjoying side-splitting laughter at people’s reactions!</span> <br><br></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>2 in 1</s:tag>
+    <s:tag>2 pets in 1</s:tag>
+    <s:tag>All Custom Portraits - Collection</s:tag>
+    <s:tag>Artwork Approval Checkbox</s:tag>
+    <s:tag>Canvas</s:tag>
+    <s:tag>dog</s:tag>
+    <s:tag>dogs</s:tag>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>Male</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Pet Photo</s:tag>
+    <s:tag>Revenue</s:tag>
+    <s:tag>Star Wars</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Canvas / 24 x 32</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Black Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>White Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8578266300643</id>
+      <title>Brown Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/8576648773859</id>
+    <published>2024-07-01T04:16:25-07:00</published>
+    <updated>2024-07-01T04:16:25-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/galactic-duel"/>
+    <title>Galactic Duel</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/Template_3_new_star_wars_Mockup_Canvas.jpg?v=1719832474"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/galactic-duel">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Unveil the intensity and drama of interstellar conflict with “<strong>Galactic Duel</strong>,” a captivating painting that transports viewers to the heart of a science fiction saga. The central figure, clad in dark robes with a red lightsaber ignited, exudes power and determination. This character stands defiantly against an army of armored figures, suggesting an imminent clash of forces. The backdrop features towering structures that reach into a hazy, golden sky, adding to the epic scale of the confrontation. Sparks float around the scene, hinting at the chaos of battle. This painting is a must-have for enthusiasts of space operas and serves as a striking conversation piece that embodies the eternal struggle between opposing powers.</p>
+<p><strong>Personalize Your Experience:</strong><span> </span>Upload your photo and become part of the “Galactic Duel.” Imagine yourself or a loved one as the central figure, adding a unique and personal touch to this dramatic artwork. Perfect for gifts, home decor, or a special keepsake.<br><br></p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Dark robes and a red lightsaber</li>
+<li>Armored figures and cosmic backdrop</li>
+<li>Option to personalize with your photo</li>
+</ul>
+<!----></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Star Wars</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576648773859</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/8576646316259</id>
+    <published>2024-07-01T04:09:38-07:00</published>
+    <updated>2024-07-01T04:09:38-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/galactic-guardian"/>
+    <title>Galactic Guardian</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/Template_2_Startwars_Solo_Mockup_Canvas.jpg?v=1719832070"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/galactic-guardian">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Embark on an interstellar adventure with <strong>“Galactic Guardian.”</strong> This captivating painting features a character dressed in a Jedi robe, wielding a blue lightsaber against a cosmic backdrop of stars and nebulae. The character’s face is obscured, adding an element of mystery and inviting viewers to imagine themselves in the role of the guardian.</p>
+<p><strong>Personalize Your Experience:</strong><span> </span>Upload your photo and become the <strong>“Galactic Guardian.”</strong> Imagine yourself or a loved one as the heroic figure, adding a unique and personal touch to this epic artwork. Perfect for gifts, home decor, or a special keepsake.</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Jedi-inspired robe and blue lightsaber</li>
+<li>Mysterious, obscured face</li>
+<li>Cosmic background with stars and nebulae</li>
+<li>Option to personalize your photo</li>
+<li>Perfect for adding a touch of adventure and intrigue to any space</li>
+</ul>
+<!----></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Star Wars</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/8576646316259</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7970388246755</id>
+    <published>2022-12-04T23:56:36-08:00</published>
+    <updated>2022-12-04T23:56:36-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/pawday-hooman"/>
+    <title>Pawday (Hooman)</title>
+    <s:type>Canvas</s:type>
+    <s:vendor>IconicPaw</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/wednesdayhoman1.jpg?v=1670226966"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>IconicPaw<br>
+        <strong>Type: </strong>Canvas<br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/pawday-hooman">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div data-region="main" data-shogun-variant-id="5f8909d8795e94009b89fcf5" data-shogun-platform-type="shopify" data-shogun-page-version-id="5f8909d8795e94009b89fcf3" data-shogun-page-id="5f8909d8795e94009b89fcf4" data-shogun-site-id="e2659ff7-b20d-4a23-9903-ce81e177490a" data-shogun-id="5f8909d8795e94009b89fcf4" class="shogun-root">
+<div class="shg-c" id="s-51f9ca3d-5b17-4730-8b4f-f23bed7bb300">
+<meta charset="utf-8">
+<div data-offset-key="6mb2-0-0" data-editor="2jq6p" data-block="true" class="">
+<div data-offset-key="d4liv-0-0" data-editor="4gqct" data-block="true" class="">
+<div style="text-align: center;" data-offset-key="6mb2-0-0" data-editor="2jq6p" data-block="true" class="">
+<meta charset="utf-8">
+<p><strong>387% Satisfaction Guarantee (Yep, No Typo, We Mean it!)</strong><strong><br><br>A ONE OF A KIND MASTERPIECE FEATURING YOUR PET<br></strong>Just imagine you striking as Pawday. Yes, this stunning portrait will have everyone laughing and admiring your portrait for ages to come.<br><br><img src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/wednesdayhoman3_480x480.jpg?v=1670226625" alt="" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/wednesdayhoman3_480x480.jpg?v=1670226625"><br></p>
+<p><strong>6 Inspiring Reasons You Should Own An Iconic Paw Portrait</strong></p>
+<ul>
+<li style="text-align: left;"><strong>It's One Of A Kind</strong></li>
+<li style="text-align: left;"><strong>Printed on Ready To Hang Gallery Quality Canvas</strong></li>
+<li style="text-align: left;">
+<strong>Fixes Bad Moods</strong><span> </span>in Seconds</li>
+<li style="text-align: left;">
+<strong>98.7% Guaranteed<span> </span></strong>to make people laugh (Yes it's true)</li>
+<li style="text-align: left;">
+<strong>Made by Real Artists</strong><span> </span>that draw portraits every day</li>
+</ul>
+<p><span>Our artists create your work of art with love and attention to detail. In short, we turn your pet's photo into a Masterpiece. </span>Simply upload your favorite pet photo, and our artists will work their magic.</p>
+<p><strong>P.S. Iconic Paw Portraits make the perfect gift for all.</strong></p>
+<p>So what are you waiting for?</p>
+<p><span>Join the growing family of Iconic Paw and before long, you’ll be enjoying side-splitting laughter at people’s reactions!<br></span></p>
+<h4></h4>
+</div>
+</div>
+</div>
+<div data-offset-key="6mb2-0-0" data-editor="2jq6p" data-block="true" class=""></div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Active Canvas</s:tag>
+    <s:tag>All Custom Portraits - Collection</s:tag>
+    <s:tag>Artwork Approval Checkbox</s:tag>
+    <s:tag>Canvas</s:tag>
+    <s:tag>Male</s:tag>
+    <s:tag>Pet Photo</s:tag>
+    <s:tag>Photo Upload Required</s:tag>
+    <s:tag>Revenue</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7970388246755</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7953265524963</id>
+    <published>2022-11-15T21:12:39-08:00</published>
+    <updated>2022-11-15T21:12:39-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/the-pawface"/>
+    <title>The Scarface</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/pacinomain-min.jpg?v=1668575593"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/the-pawface">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><br></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953265524963</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7953235575011</id>
+    <published>2022-11-15T20:37:42-08:00</published>
+    <updated>2022-11-15T20:37:42-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/the-gladiator"/>
+    <title>The Gladiator</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/gladiatormain-min.jpg?v=1707467915"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/the-gladiator">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><br></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7953235575011</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7952539287779</id>
+    <published>2022-11-15T20:25:17-08:00</published>
+    <updated>2022-11-15T20:25:17-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/the-phantom"/>
+    <title>The Phantom</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/bond4main-min.jpg?v=1668498191"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/the-phantom">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><br></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always be blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952539287779</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7952530047203</id>
+    <published>2022-11-15T20:24:41-08:00</published>
+    <updated>2022-11-15T20:24:41-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/secret-agent"/>
+    <title>The Bandit</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/bond1main-min.jpg?v=1668496944"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/secret-agent">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><br></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952530047203</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7952536994019</id>
+    <published>2022-11-15T20:23:45-08:00</published>
+    <updated>2022-11-15T20:23:45-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/the-spy"/>
+    <title>The Spy</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/bond3main-min.jpg?v=1668497906"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/the-spy">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><br></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952536994019</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/7952533586147</id>
+    <published>2022-11-15T20:22:39-08:00</published>
+    <updated>2022-11-15T20:22:39-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/secret-agent-1"/>
+    <title>The Agent</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/bond2main-min.jpg?v=1668497525"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/secret-agent-1">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><br></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/7952533586147</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4554578001954</id>
+    <published>2022-10-28T01:57:41-07:00</published>
+    <updated>2022-10-28T01:57:41-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/heisenberg-custom-self-portraits"/>
+    <title>Heisenberg</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/Heisenberg-Canvas.jpg?v=1709087063"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/heisenberg-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Just imagine yourself, striking your pose as the infamous <span>Heisenberg</span>. Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true"></span><br>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_heisenberg-min.png?v=1631428424"></span></div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true"></span><br>
+</div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554578001954</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4554658316322</id>
+    <published>2022-10-28T01:57:39-07:00</published>
+    <updated>2022-10-28T01:57:39-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/breaking-paw-custom-self-portraits"/>
+    <title>Breaking Paw</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/BreakingPaw-Canvas.jpg?v=1709087234"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/breaking-paw-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Just imagine yourself, striking your pose as the infamous Breaking Paw. Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_breaking-min.png?v=1631453282"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>movie</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4554658316322</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4610068774946</id>
+    <published>2022-10-28T01:57:00-07:00</published>
+    <updated>2022-10-28T01:57:00-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/peaky-paws-custom-self-portraits"/>
+    <title>Peaky Paws</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/peakymain-min.jpg?v=1666764170"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/peaky-paws-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Your Very Own Iconic Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Just imagine yourself, striking your pose as one of the Peaky Paws. Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/peaky_human-min.png?v=1633096892"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Dad</s:tag>
+    <s:tag>Fathers Day</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4610068774946</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4805040439330</id>
+    <published>2022-10-28T01:56:25-07:00</published>
+    <updated>2022-10-28T01:56:25-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/darkforce-suit-custom-self-portraits"/>
+    <title>Darkforce Suit</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/darkforceadeptpix.jpg?v=1665646798"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/darkforce-suit-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;">
+<h1><span data-preserver-spaces="true">Darkforce Suit </span></h1>
+<p><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span></p>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_darkforce_adept-min.png?v=1631387244" alt=""></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong></strong></div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040439330</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4805040799778</id>
+    <published>2022-10-28T01:56:23-07:00</published>
+    <updated>2022-10-28T01:56:23-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/hooded-darkforce-suit-custom-self-portraits"/>
+    <title>Hooded Darkforce Suit</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/HoodedDarkforceSuit-Canvas.jpg?v=1711086742"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/hooded-darkforce-suit-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;">
+<h1>Hooded Darkforce Suit</h1>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_df_adept-min.png?v=1632845520"></span></div>
+<div style="text-align: center;">
+<em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span>
+</div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x32</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040799778</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4805040996386</id>
+    <published>2022-10-28T01:56:22-07:00</published>
+    <updated>2022-10-28T01:56:22-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/lightforce-master-custom-self-portraits"/>
+    <title>The Lightforce Master (Hooman)</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/lfmmain-min.jpg?v=1665655358"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/lightforce-master-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;"><strong>Your Very Own Regal Portrait. </strong></div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Just imagine yourself, striking a pose as a Lightforce Master. Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_lfm_human-min.png?v=1631386491"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805040996386</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4805041881122</id>
+    <published>2022-10-28T01:56:21-07:00</published>
+    <updated>2022-10-28T01:56:21-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/hooded-lightforce-master-custom-self-portraits"/>
+    <title>Hooded Lightforce Master</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/HoodedLightforceMaster-Canvas.jpg?v=1711085730"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/hooded-lightforce-master-custom-self-portraits">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;">
+<h1><span data-preserver-spaces="true">Hooded Lightforce Master</span></h1>
+<p><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span></p>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_hooded_lfa_human-min.png?v=1631445674"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong></strong></div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x32</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805041881122</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4805043814434</id>
+    <published>2022-10-28T01:56:16-07:00</published>
+    <updated>2022-10-28T01:56:16-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/lightforce-paw-master-1"/>
+    <title>Lightforce Paw &amp; Master</title>
+    <s:type></s:type>
+    <s:vendor>IconicPaw</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/LightforcePaw_Master-Canvas.jpg?v=1711084324"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>IconicPaw<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            99.95 - 249.95
+            <a href="https://iconicpaw.com/products/lightforce-paw-master-1">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: center;"><meta charset="utf-8"></div>
+<div style="text-align: center;" data-offset-key="d4liv-0-0" data-editor="4gqct" data-block="true" class="">
+<h3 class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="d4liv-0-0"><span data-offset-key="d4liv-0-0"></span></h3>
+</div>
+<div style="text-align: center;" data-offset-key="av62t-0-0" data-editor="4gqct" data-block="true">
+<meta charset="utf-8">
+<p><strong>387% Satisfaction Guarantee (Yep, No Typo, We Mean it!)</strong><br></p>
+<p><strong><br>A ONE OF A KIND MASTERPIECE FEATURING YOUR PET and YOU<br></strong><br></p>
+<p><img src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_lfp_n_m-min.png?v=1632890387" alt=""></p>
+<p><strong>6 Inspiring Reasons You Should Own An Iconic Paw Portrait</strong></p>
+<ul>
+<li style="text-align: left;"><strong>It's One Of A Kind</strong></li>
+<li style="text-align: left;"><strong>Printed on Ready To Hang Gallery Quality Canvas</strong></li>
+<li style="text-align: left;">
+<strong>Fixes Bad Moods</strong><span> </span>in Seconds</li>
+<li style="text-align: left;">
+<strong>98.7% Guaranteed<span> </span></strong>to make people laugh (Yes it's true)</li>
+<li style="text-align: left;">
+<strong>Officially lets your pet know</strong><span> </span>that you think they're<span> </span>a big deal</li>
+<li style="text-align: left;">
+<strong>Created by Real Artists</strong><span> </span>that draw pet portraits every day</li>
+</ul>
+<p><span>We turn you and your pet's photo into a Masterpiece. </span>Simply upload your favorite pet photo, and our artists will work their magic.</p>
+<p><strong>P.S. Iconic Paw Portraits make the perfect gift for all pet parents.</strong></p>
+<meta charset="utf-8">
+<p>So what are you waiting for?</p>
+<p><span>Join the growing family of Iconic Paw and before long, you’ll be enjoying side-splitting laughter at people’s reactions!</span> <br><br></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>2 in 1</s:tag>
+    <s:tag>2 pets in 1</s:tag>
+    <s:tag>All Custom Portraits - Collection</s:tag>
+    <s:tag>Artwork Approval Checkbox</s:tag>
+    <s:tag>Canvas</s:tag>
+    <s:tag>dog</s:tag>
+    <s:tag>dogs</s:tag>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>Male</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Pet Photo</s:tag>
+    <s:tag>Revenue</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Canvas / 24 x 32</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Black Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>White Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4805043814434</id>
+      <title>Brown Frame / 24 x 32</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4808494153762</id>
+    <published>2022-10-28T01:56:12-07:00</published>
+    <updated>2022-10-28T01:56:12-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/lightforce-lady"/>
+    <title>Lightforce Lady</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/LightForceLady-Canvas.jpg?v=1711084477"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/lightforce-lady">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;">
+<h1><span data-preserver-spaces="true">Lightforce Lady</span></h1>
+<p><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span></p>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_ahsoka-min.png?v=1631720822"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong></strong></div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>lady human</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494153762</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4808494678050</id>
+    <published>2022-10-28T01:56:10-07:00</published>
+    <updated>2022-10-28T01:56:10-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/falcon-pilot"/>
+    <title>Falcon Pilot</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/falconmain-min.jpg?v=1665653881"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/falcon-pilot">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;">
+<h1><span data-preserver-spaces="true">Falcon Pilot</span></h1>
+<p><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span></p>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_falcon-min.png?v=1631429371" alt=""></span></div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Superheroes</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x32</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808494678050</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4808495431714</id>
+    <published>2022-10-28T01:56:09-07:00</published>
+    <updated>2022-10-28T01:56:09-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/star-pilot"/>
+    <title>Star Pilot</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/starpilotpix.jpg?v=1665646817"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/star-pilot">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;">
+<h1>Your Very Own Regal Portrait. </h1>
+</div>
+<div style="text-align: center;">
+<span data-preserver-spaces="true">Just imagine yourself, striking a pose as the Star Pilot. Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba_starpilot-min_1.png?v=1631432978"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></div>
+<div style="text-align: center;">
+<ul>
+<li style="text-align: left;"><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li style="text-align: left;"><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></div>
+<div style="text-align: center;">
+<em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808495431714</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/4808496021538</id>
+    <published>2022-10-28T01:56:08-07:00</published>
+    <updated>2022-10-28T01:56:08-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/arctic-princess"/>
+    <title>Arctic Princess</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/alderaanC-min.jpg?v=1665512327"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/arctic-princess">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div style="text-align: center;">
+<meta charset="utf-8"> <meta name="uuid" content="uuidDCRxjBcXoSZv"> <meta charset="utf-8">
+<h1><span data-preserver-spaces="true">Arctic Princess</span></h1>
+<p><span data-preserver-spaces="true">Have you ever wanted to see yourself as a master of the force? Well, here is your chance. Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span></p>
+</div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"><img alt="" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/ba-alderaan-min.jpg?v=1630552360"></span></div>
+<div style="text-align: center;"><span data-preserver-spaces="true"></span></div>
+<div style="text-align: center;"><strong></strong></div>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Female</s:tag>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/4808496021538</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/6169968345282</id>
+    <published>2022-10-28T01:55:34-07:00</published>
+    <updated>2022-10-28T01:55:34-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/pawface-portrait"/>
+    <title>The Montanas</title>
+    <s:type>Canvas</s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/files/TheMontana-Canvas.jpg?v=1710206263"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong>Canvas<br>
+        <strong>Price: </strong>
+            59.95 - 249.95
+            <a href="https://iconicpaw.com/products/pawface-portrait">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<h1><strong>Your Very Own Iconic Portrait. </strong></h1>
+<p><span data-preserver-spaces="true">Let them all bask in your glory. Everyone will be in awe... </span><em><span data-preserver-spaces="true">including you.</span></em><span data-preserver-spaces="true"> Yes, this stunning portrait will have everyone laughing and admiring your Iconic Pose for ages to come.</span></p>
+<p><strong>4 Reasons You Need Your Very Own Iconic Pose Portrait</strong></p>
+<ul>
+<li><span data-preserver-spaces="true">Your skies will always blue</span></li>
+<li><span data-preserver-spaces="true">People will just start feeding you grapes </span></li>
+<li><span data-preserver-spaces="true">Makes you feel like drinking tea with your pinky out</span></li>
+<li><span data-preserver-spaces="true">Hand-drawn by our masterful artists</span></li>
+</ul>
+<p><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em>So, simply upload your photo</em>, and our artists will give you something that will make you proud. Because you deserve it. </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Couple Portraits</s:tag>
+    <s:tag>Human Portrait</s:tag>
+    <s:tag>People</s:tag>
+    <s:tag>Photo Upload Required</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">59.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6169968345282</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">249.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://iconicpaw.com/products/6896109715650</id>
+    <published>2022-10-28T01:55:28-07:00</published>
+    <updated>2022-10-28T01:55:28-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://iconicpaw.com/products/darkforce-assassin"/>
+    <title>Darkforce Assassin</title>
+    <s:type></s:type>
+    <s:vendor>Human</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0145/7153/6441/products/darkforceassasinpix.jpg?v=1665646670"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Human<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            49.95 - 199.95
+            <a href="https://iconicpaw.com/products/darkforce-assassin">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<h1>Darkforce Assassin</h1>
+<p><span data-preserver-spaces="true">Each portrait is crafted with care and great attention to detail. We take pride in assuring you of the most perfect masterpiece.</span></p>
+<p><em><span data-preserver-spaces="true">So, simply upload your photo</span></em><span data-preserver-spaces="true">, and our artists will give you something that will make sure the Force will always be with you. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Human Portraits</s:tag>
+    <s:tag>People</s:tag>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Canvas / 8 x 10</title>
+      <s:price currency="USD">49.95</s:price>
+      <s:sku>Canvas_8x10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Canvas / 12 x 18</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>Canvas_12x18</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Canvas / 16 x 24</title>
+      <s:price currency="USD">99.95</s:price>
+      <s:sku>Canvas_16x24</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Canvas / 24 x 36</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>Canvas_24x36</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Black Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Black Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Black Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Black Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Black</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>White Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>White Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>White Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>White Frame / 24 x 36</title>
+      <s:price currency="USD">199.94</s:price>
+      <s:sku>FramedCanvs-24x36-White</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Brown Frame / 8 x 10</title>
+      <s:price currency="USD">74.95</s:price>
+      <s:sku>FramedCanvs-8x10-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Brown Frame / 12 x 18</title>
+      <s:price currency="USD">109.95</s:price>
+      <s:sku>FramedCanvs-12x18-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Brown Frame / 16 x 24</title>
+      <s:price currency="USD">149.95</s:price>
+      <s:sku>FramedCanvs-16x24-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://iconicpaw.com/products/6896109715650</id>
+      <title>Brown Frame / 24 x 36</title>
+      <s:price currency="USD">199.95</s:price>
+      <s:sku>FramedCanvs-24x36-Walnut</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>
