@@ -2,74 +2,6 @@
 <html lang="en">
 
 <head>
-                <div>
-<!-- КНОПКА ОТКРЫТИЯ -->
-<a class="card__title" href="javascript:void(0);" onclick="openForm()">Мастер Лапа</a>
-
-<!-- ФОРМА-ПЕРЕКРЫТИЕ -->
-<div id="fullscreenForm" style="display: none;">
-  <div class="form-overlay">
-    <div class="form-content">
-      <button onclick="closeForm()" class="close-button">✖</button>
-
-      <form id="multiStepForm" enctype="multipart/form-data">
-        <div class="step active" id="step1">
-          <div class="faq-item">
-            <button type="button" class="faq-question">Как проходит заказ?</button>
-            <div class="faq-answer">
-              Вы указываете данные, оплачиваете всего 1000 рублей. После этого я пришлю вам портрет на согласование и обсуждение деталей.
-            </div>
-          </div>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step2">
-          <input type="text" name="firstName" placeholder="Имя" required />
-          <input type="text" name="lastName" placeholder="Фамилия" required />
-          <input type="tel" name="phone" placeholder="Телефон" required />
-          <select name="contactMethod" required>
-            <option value="">Выберите способ связи</option>
-            <option value="whatsapp">WhatsApp</option>
-            <option value="telegram">Telegram</option>
-          </select>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step3">
-          <div class="gender-select">
-            <button type="button" onclick="showImages('male')">🐶 Кобель (мальчик)</button>
-            <button type="button" onclick="showImages('female')">🐶 Девочка</button>
-          </div>
-          <div class="image-grid" id="imageGrid"></div>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step4">
-          <div class="upload-block">
-            <label for="userPhoto">Загрузите фото вашего питомца *</label>
-            <input type="file" id="userPhoto" name="userPhoto" accept="image/*" required />
-          </div>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step5">
-          <div class="explanation">
-            Для начала работы достаточно внести <strong>1000 ₽</strong><br />После оплаты я отправлю макет и мы обсудим детали доставки.
-          </div>
-          <button type="submit">Оплатить 1000 ₽</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-<!-- СТИЛИ -->
-
-
-<!-- JS -->
-
-
-              </div>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Custom Sketches</title>
@@ -162,8 +94,283 @@
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
             <h2><span>Hi! My name is</span><span class="underlight">Irina,</span><span> I'm an artist and tattoo designer.</span></h2>
-            <p>I create unique tattoo sketches that highlight your individuality. My goal is to design something that’s not only beautiful, but also personally meaningful to you.</p>           
+            <p>I create unique tattoo sketches that highlight your individuality. My goal is to design something that’s not only beautiful, but also personally meaningful to you.</p>
+            <body>            
               <!-- Ваша существующая структура -->
+              <div>
+  <style>
+    .form-container {
+      background: #1a1a1a;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      width: 100%;
+      box-shadow: 0 0 20px #00f7ff99;
+      display: none;
+    }
+    .step { display: none; }
+    .step.active { display: block; animation: fadeIn 0.5s ease-in-out; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .faq-question {
+      background: #222;
+      border: none;
+      color: #00f7ff;
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    .faq-answer {
+      display: none;
+      margin-top: 5px;
+      padding: 10px;
+      background: #2b2b2b;
+      border-radius: 10px;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: #222;
+      color: #fafafa;
+    }
+    button {
+      background: #00f7ff;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    button:hover { background-color: #00c9ff; }
+    .gender-select {
+      display: flex;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .gender-select button {
+      flex: 1;
+      padding: 14px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #222;
+      border: 2px solid #00f7ff;
+      color: #00f7ff;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .gender-select button:hover {
+      background-color: #00f7ff;
+      color: #111;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .image-grid img {
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 3px solid transparent;
+      height: 150px;
+      object-fit: cover;
+      background: #333;
+    }
+    .image-grid img.selected { border-color: #00f7ff; }
+    .explanation {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #bbb;
+      text-align: center;
+    }
+    .upload-block {
+      margin-top: 20px;
+    }
+    .upload-block label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #00f7ff;
+    }
+  </style>
+</head>
+<body>
+  <a class="card__title" href="javascript:void(0);" onclick="openForm()">Мастер Лапа</a>
+
+  <div class="form-container">
+    <form id="multiStepForm" enctype="multipart/form-data">
+      <!-- Step 1 -->
+      <div class="step active">
+        <button type="button" class="faq-question">Как проходит заказ?</button>
+        <div class="faq-answer">
+          Вы указываете данные, оплачиваете всего 1000 рублей. После этого я пришлю вам портрет на согласование и обсуждение деталей.
+        </div>
+        <button type="button" onclick="nextStep()">Далее</button>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step">
+        <input type="text" name="firstName" placeholder="Имя" required />
+        <input type="text" name="lastName" placeholder="Фамилия" required />
+        <input type="tel" name="phone" placeholder="Телефон" required />
+        <select name="contactMethod" required>
+          <option value="">Выберите способ связи</option>
+          <option value="whatsapp">WhatsApp</option>
+          <option value="telegram">Telegram</option>
+        </select>
+        <button type="button" onclick="nextStep()">Далее</button>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step">
+        <div class="gender-select">
+          <button type="button" onclick="showImages('male')">🐶 Кобель (мальчик)</button>
+          <button type="button" onclick="showImages('female')">🐶 Девочка</button>
+        </div>
+        <div class="image-grid" id="imageGrid"></div>
+        <button type="button" onclick="nextStep()">Далее</button>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step">
+        <div class="upload-block">
+          <label for="userPhoto">Загрузите фото вашего питомца *</label>
+          <input type="file" id="userPhoto" name="userPhoto" accept="image/*" required />
+        </div>
+        <button type="button" onclick="nextStep()">Далее</button>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="step">
+        <div class="explanation">
+          Для начала работы достаточно внести <strong>1000 ₽</strong><br />
+          После оплаты я отправлю макет и мы обсудим детали доставки.
+        </div>
+        <button type="submit">Оплатить 1000 ₽</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const steps = document.querySelectorAll('.step');
+    let currentStep = 0;
+    let selectedGender = '';
+    let selectedImageSrc = '';
+
+    function openForm() {
+      document.querySelector('.form-container').style.display = 'block';
+    }
+
+    function nextStep() {
+      const inputs = steps[currentStep].querySelectorAll('input, select');
+      for (const input of inputs) {
+        if (!input.checkValidity()) {
+          input.reportValidity();
+          return;
+        }
+      }
+
+      if (currentStep === 2 && !selectedImageSrc) {
+        alert("Пожалуйста, выберите изображение.");
+        return;
+      }
+
+      steps[currentStep].classList.remove('active');
+      currentStep++;
+      steps[currentStep].classList.add('active');
+    }
+
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const ans = btn.nextElementSibling;
+        ans.style.display = ans.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+
+    const maleImages = [...Array(10)].map((_, i) => `https://via.placeholder.com/220x150?text=Мальчик+${i + 1}`);
+    const femaleImages = [...Array(10)].map((_, i) => `https://via.placeholder.com/220x150?text=Девочка+${i + 1}`);
+
+    function showImages(gender) {
+      selectedGender = gender;
+      selectedImageSrc = '';
+      const grid = document.getElementById('imageGrid');
+      grid.innerHTML = '';
+      const images = gender === 'male' ? maleImages : femaleImages;
+      images.forEach((src, index) => {
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = `Выбор ${index + 1}`;
+        img.onclick = () => {
+          document.querySelectorAll('#imageGrid img').forEach(i => i.classList.remove('selected'));
+          img.classList.add('selected');
+          selectedImageSrc = src;
+        };
+        grid.appendChild(img);
+      });
+    }
+
+    const telegramToken = "ВАШ_ТОКЕН";
+    const telegramChatId = "ВАШ_CHAT_ID";
+
+    document.getElementById('multiStepForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      const form = e.target;
+      const fileInput = document.getElementById('userPhoto');
+
+      if (!fileInput.files.length) {
+        alert("Пожалуйста, загрузите фото питомца");
+        return;
+      }
+
+      const formData = new FormData(form);
+      const message = `Новый заказ портрета:\nИмя: ${formData.get("firstName")}\nФамилия: ${formData.get("lastName")}\nТелефон: ${formData.get("phone")}\nСвязь: ${formData.get("contactMethod")}\nПол: ${selectedGender}\nВыбранная картинка: ${selectedImageSrc}\nФайл: ${fileInput.files[0].name}`;
+
+      const msgData = new FormData();
+      msgData.append("chat_id", telegramChatId);
+      msgData.append("text", message);
+
+      try {
+        const msgRes = await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+          method: "POST",
+          body: msgData
+        });
+
+        const photoData = new FormData();
+        photoData.append("chat_id", telegramChatId);
+        photoData.append("photo", fileInput.files[0]);
+
+        await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
+          method: "POST",
+          body: photoData
+        });
+
+        alert("Форма успешно отправлена!");
+        form.reset();
+        currentStep = 0;
+        steps.forEach(s => s.classList.remove('active'));
+        steps[0].classList.add('active');
+        selectedGender = '';
+        selectedImageSrc = '';
+        document.getElementById('imageGrid').innerHTML = '';
+        window.location.href = "https://vk.com";
+      } catch (err) {
+        alert("Ошибка отправки: " + err.message);
+      }
+    });
+  </script>
+</body>
+</html>
+
+              </div>
+            </body>
             
           </div>
         </div>
