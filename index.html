@@ -7014,130 +7014,7 @@ Join the growing family of Iconic Paw and before long, you’ll be enjoying side
 
 </div>
           </div>
-        
-          <div class="col-6 col-md-3 card--holder ease-in">
-            <div class="card--default  card--noButton" data-product-card-default>
 
-<a class="card__img--container" href="products/the-smuggler.html" data-product-card-swatch-id="4592037199906">
-<div class="card__img--ratio">
-  <div class="card__img" >
-    
-      <div class="card__tags">
-        
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </div>
-    
-    
-      <img loading="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' style='fill:%23eeeeee;'/%3E%3C/svg%3E" 
-data-srcset="//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_375x.jpg?v=1707098170 375w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_410x.jpg?v=1707098170 410w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_520x.jpg?v=1707098170 520w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_576x.jpg?v=1707098170 576w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_768x.jpg?v=1707098170 768w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_992x.jpg?v=1707098170 992w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_1024x.jpg?v=1707098170 1024w,//iconicpaw.com/cdn/shop/files/TheSmuggler-Canvas_1280x.jpg?v=1707098170 1280w" data-sizes="(max-width: 767px) 50vw, 25vw" 
-alt="The Smuggler" height="1000" width="1000" class="lazyload ">
-      
-    
-    
-  </div>
-</div>
-</a>
-
-
-
-
-
-<div class="card__info">
-
-
-
-        <a href="index.html#looxReviews">
-            <div class="loox-rating" data-id="4592037199906" data-rating="5.0" data-raters="9">
-            </div>
-        </a>
-    
-
-
-<a 
-  class="card__title" 
-  href="products/the-smuggler.html" 
-  data-product-card-swatch-id="4592037199906" 
-  data-original-text="The Smuggler"
-  data-truncated-text="">
-
-The Smuggler
-
-</a>
-
-<span class="card__price card__price--sale">
-
-  <span class="jsPrice">4990₽</span>
-
-
-
-
-<span class="card__price--old jsPrice">
-9990₽
-</span>
-
-
-
-</span>
-
-<div class="card__description ">
-
-
-
-
-
-387% Satisfaction Guarantee (Yep, No Typo, We Mean it!)A ONE OF A KIND MASTERPIECE FEATURING YOUR PETYes, this stunning portrait will have everyone laughing and admiring your pet for ages to come.
-6 Inspiring Reasons You Should Own An Iconic Paw Portrait
-
-It's One Of A Kind
-Printed on Ready To Hang Gallery Quality Canvas
-
-Fixes Bad Moods in Seconds
-
-98.7% Guaranteed to make people laugh (Yes it's true)
-
-Officially lets your pet know that you think they're a big deal
-
-Made by Real Artists that draw pet portraits every day
-
-Our artists create your pet's work of art with love and attention to detail. In short, we turn your pet's photo into a Masterpiece. Simply upload your favorite pet photo, and our artists will work their magic.
-P.S. Iconic Paw Portraits make the perfect gift for all pet parents.
-So what are you waiting for?
-Join the growing family of Iconic Paw and before long, you’ll be enjoying side-splitting laughter at people’s reactions!
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-          </div>
         
       </div>
     
@@ -8374,15 +8251,94 @@ alt="PHONE CASES" height="1000" width="1000" class="lazyload ">
 }
 </style>
 
+  <style>
 
+    /* Модальное окно */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.75);
+    }
+
+    .modal-content {
+      background-color: #222;
+      margin: 8% auto;
+      padding: 30px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 1000px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: #fff;
+    }
+
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
 
 <div class="inherit footer layout__stretchBg">
     <div class="layout__content row">
     
     <div class="col-12 col-md col-md-1-5 footer__block start top">
     <div class="footer__links start ease-in"><span class="footer__title">Обнаружить</span>
-<a href="pages/our-story.html">Наша миссия</a>
+</head>
+<body>
 
+<a onclick="openModal()">Наша миссия</a>
+
+<!-- Модальное окно -->
+<div id="missionModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Наша миссия</h2>
+    <p>В <strong>Iconic Paw</strong> наша миссия проста — делать счастливыми людей и их питомцев. Мы понимаем, что ваши питомцы — центр вашей вселенной, как и нашей.</p>
+    <p>Поэтому мы создаём искусство, которое трогает до глубины души — и нам это нравится! Мы гордимся тем, что создаём идеальные портреты для ваших пушистиков.</p>
+    <p>Они заставят вас смеяться, улыбаться, иногда даже плакать от радости, но главное — они вызовут настоящие эмоции.</p>
+    <p>Каждый портрет создаётся с любовью и является уникальным — ведь такими же уникальными являются и наши питомцы.</p>
+    <p>Присоединяйтесь к растущей семье <strong>Iconic Paw</strong> и получите нечто, что навсегда сохранит память о вашем любимце.</p>
+  </div>
+</div>
+
+<script>
+  function openModal() {
+    document.getElementById("missionModal").style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById("missionModal").style.display = "none";
+  }
+
+  // Закрытие при клике вне окна
+  window.onclick = function(event) {
+    const modal = document.getElementById("missionModal");
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+</body>
 <a href="pages/reviews-⭐.html">Обзоры</a>
 
 <a href="https://www.instagram.com/iconicpaw">Телеграм</a>
