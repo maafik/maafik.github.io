@@ -8338,9 +8338,9 @@ alt="PHONE CASES" height="1000" width="1000" class="lazyload ">
 </script>
 
 </body>
-<a href="pages/reviews-⭐.html">Обзоры</a>
+<a href="#">Обзоры</a>
 
-<a href="https://www.instagram.com/iconicpaw">Телеграм</a>
+<a href="#">Телеграм</a>
 
 <a href="https://www.facebook.com/IconicPaw/">Инстаграм</a>
 
@@ -8353,11 +8353,130 @@ alt="PHONE CASES" height="1000" width="1000" class="lazyload ">
     <div class="col-12 col-md col-md-1-5 footer__block start top">
     <div class="footer__links start ease-in"><span class="footer__title">Дополнительная информация</span>
 
-<a href="pages/shipping-delivery.html">Политика возврата</a>
+<a onclick="openReturnPolicy(); return false;">Политика возврата</a>
+<!-- Модальное окно: Политика возврата -->
+<div id="returnModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeReturnBtn">&times;</span>
+    <h2>Политика возврата</h2>
+    <p><strong>Iconic Paw</strong> стремится к 100% удовлетворённости клиентов. Если вы недовольны своим заказом, пожалуйста, свяжитесь с нами в течение 14 дней с момента получения.</p>
+    <p>Поскольку наши портреты являются персонализированными, мы не принимаем возвраты за исключением следующих случаев:</p>
+    <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+      <li>Заказ был повреждён при доставке</li>
+      <li>Вы получили неправильный товар</li>
+      <li>Есть производственный брак</li>
+    </ul>
+    <p>В этих случаях мы бесплатно отправим вам замену.</p>
+    <p>Для начала процесса возврата или замены, пожалуйста, отправьте фото проблемы и номер заказа на наш email поддержки.</p>
+    <p><em>Спасибо, что выбрали Iconic Paw!</em></p>
+  </div>
+</div>
+<script>
+  const returnModal = document.getElementById("returnModal");
+  const closeReturnBtn = document.getElementById("closeReturnBtn");
 
-<a href="pages/privacy-policy.html">Политика конфиденциальности</a>
+  function openReturnPolicy() {
+    returnModal.style.display = "block";
+  }
 
-<a href="pages/privacy-policy.html">Условия обслуживания</a>
+  function closeReturnPolicy() {
+    returnModal.style.display = "none";
+  }
+
+  closeReturnBtn.addEventListener("click", closeReturnPolicy);
+
+  window.addEventListener("click", function(event) {
+    if (event.target === returnModal) {
+      closeReturnPolicy();
+    }
+  });
+</script>
+
+
+
+<a href="#" onclick="openPolicyTerms(); return false;">Политика конфиденциальности</a>
+<!-- Модальное окно: Политика и Условия -->
+<div id="policyTermsModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closePolicyTermsBtn">&times;</span>
+    <h2>Политика конфиденциальности и Условия обслуживания</h2>
+
+    <h3>Политика конфиденциальности</h3>
+    <p>Мы уважаем вашу конфиденциальность и обязуемся защищать персональные данные, которые вы нам предоставляете.</p>
+    <p>Собранная информация используется только для обработки заказов, связи с вами и улучшения наших услуг. Мы не передаём ваши данные третьим лицам, за исключением случаев, предусмотренных законом или необходимых для доставки заказа.</p>
+    <p>Используя наш сайт, вы соглашаетесь с данной политикой.</p>
+
+    <h3>Условия обслуживания</h3>
+    <p>При оформлении заказа вы соглашаетесь с тем, что предоставляете достоверную информацию и несёте ответственность за её корректность.</p>
+    <p>Все товары на сайте являются индивидуальными и изготавливаются под заказ. Возврат возможен только в случае брака, ошибки с нашей стороны или повреждения при доставке.</p>
+    <p>Мы оставляем за собой право вносить изменения в данные условия без предварительного уведомления.</p>
+
+    <p><em>Если у вас возникли вопросы, свяжитесь с нашей службой поддержки.</em></p>
+  </div>
+</div>
+<script>
+  const policyTermsModal = document.getElementById("policyTermsModal");
+  const closePolicyTermsBtn = document.getElementById("closePolicyTermsBtn");
+
+  function openPolicyTerms() {
+    policyTermsModal.style.display = "block";
+  }
+
+  function closePolicyTerms() {
+    policyTermsModal.style.display = "none";
+  }
+
+  closePolicyTermsBtn.addEventListener("click", closePolicyTerms);
+
+  window.addEventListener("click", function(event) {
+    if (event.target === policyTermsModal) {
+      closePolicyTerms();
+    }
+  });
+</script>
+
+
+<a href="#" onclick="openPolicyTerms(); return false;">Условия обслуживания</a>
+<!-- Модальное окно: Политика и Условия -->
+<div id="policyTermsModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closePolicyTermsBtn">&times;</span>
+    <h2>Политика конфиденциальности и Условия обслуживания</h2>
+
+    <h3>Политика конфиденциальности</h3>
+    <p>Мы уважаем вашу конфиденциальность и обязуемся защищать персональные данные, которые вы нам предоставляете.</p>
+    <p>Собранная информация используется только для обработки заказов, связи с вами и улучшения наших услуг. Мы не передаём ваши данные третьим лицам, за исключением случаев, предусмотренных законом или необходимых для доставки заказа.</p>
+    <p>Используя наш сайт, вы соглашаетесь с данной политикой.</p>
+
+    <h3>Условия обслуживания</h3>
+    <p>При оформлении заказа вы соглашаетесь с тем, что предоставляете достоверную информацию и несёте ответственность за её корректность.</p>
+    <p>Все товары на сайте являются индивидуальными и изготавливаются под заказ. Возврат возможен только в случае брака, ошибки с нашей стороны или повреждения при доставке.</p>
+    <p>Мы оставляем за собой право вносить изменения в данные условия без предварительного уведомления.</p>
+
+    <p><em>Если у вас возникли вопросы, свяжитесь с нашей службой поддержки.</em></p>
+  </div>
+</div>
+<script>
+  const policyTermsModal = document.getElementById("policyTermsModal");
+  const closePolicyTermsBtn = document.getElementById("closePolicyTermsBtn");
+
+  function openPolicyTerms() {
+    policyTermsModal.style.display = "block";
+  }
+
+  function closePolicyTerms() {
+    policyTermsModal.style.display = "none";
+  }
+
+  closePolicyTermsBtn.addEventListener("click", closePolicyTerms);
+
+  window.addEventListener("click", function(event) {
+    if (event.target === policyTermsModal) {
+      closePolicyTerms();
+    }
+  });
+</script>
+
 
 </div>
 
