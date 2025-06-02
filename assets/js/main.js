@@ -46,6 +46,119 @@
 
   });
 
+  function openForm() {
+    document.getElementById('fullscreenForm').style.display = 'block';
+  }
+
+  function closeForm() {
+    document.getElementById('fullscreenForm').style.display = 'none';
+  }
+
+  const steps = document.querySelectorAll('.step');
+  let currentStep = 0;
+
+  function nextStep() {
+    const currentFields = steps[currentStep].querySelectorAll('input, select');
+    let valid = true;
+    currentFields.forEach(field => {
+      if (!field.checkValidity()) {
+        valid = false;
+        field.reportValidity();
+      }
+    });
+
+    if (currentStep === 2 && !document.querySelector('#imageGrid img.selected')) {
+      alert('Пожалуйста, выберите изображение.');
+      valid = false;
+    }
+
+    if (!valid) return;
+
+    steps[currentStep].classList.remove('active');
+    currentStep++;
+    steps[currentStep].classList.add('active');
+  }
+
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const answer = btn.nextElementSibling;
+      answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+
+  let selectedGender = '';
+  let selectedImageSrc = '';
+  const maleImages = ['https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/8AJNx%2B.png'];
+  const femaleImages = ['https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/9JvYFO.png'];
+
+  function showImages(gender) {
+    selectedGender = gender;
+    selectedImageSrc = '';
+    const grid = document.getElementById('imageGrid');
+    grid.innerHTML = '';
+    const imgs = gender === 'male' ? maleImages : femaleImages;
+    imgs.forEach(src => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.onclick = () => {
+        document.querySelectorAll('#imageGrid img').forEach(i => i.classList.remove('selected'));
+        img.classList.add('selected');
+        selectedImageSrc = src;
+      };
+      grid.appendChild(img);
+    });
+  }
+
+  const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
+  const telegramChatId = "5929919501";
+
+  document.getElementById('multiStepForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const photo = document.getElementById('userPhoto').files[0];
+    if (!photo) return alert('Загрузите фото питомца');
+
+    const form = new FormData(e.target);
+    const message = `
+Новый заказ:
+Имя: ${form.get('firstName')}
+Фамилия: ${form.get('lastName')}
+Телефон: ${form.get('phone')}
+Контакт: ${form.get('contactMethod')}
+Пол: ${selectedGender}
+Изображение: ${selectedImageSrc}
+Фото: ${photo.name}
+`;
+
+    try {
+      const messageData = new FormData();
+      messageData.append('chat_id', telegramChatId);
+      messageData.append('text', message);
+      await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+        method: 'POST',
+        body: messageData
+      });
+
+      const photoData = new FormData();
+      photoData.append('chat_id', telegramChatId);
+      photoData.append('photo', photo);
+      await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
+        method: 'POST',
+        body: photoData
+      });
+
+      alert('Успешно отправлено!');
+      closeForm();
+      e.target.reset();
+      document.getElementById('imageGrid').innerHTML = '';
+      currentStep = 0;
+      steps.forEach(s => s.classList.remove('active'));
+      steps[0].classList.add('active');
+    } catch (err) {
+      alert('Ошибка отправки: ' + err.message);
+    }
+  });
+
+
   /**
    * Toggle mobile nav dropdowns
    */

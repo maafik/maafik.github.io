@@ -2,6 +2,74 @@
 <html lang="en">
 
 <head>
+                <div>
+<!-- КНОПКА ОТКРЫТИЯ -->
+<a class="card__title" href="javascript:void(0);" onclick="openForm()">Мастер Лапа</a>
+
+<!-- ФОРМА-ПЕРЕКРЫТИЕ -->
+<div id="fullscreenForm" style="display: none;">
+  <div class="form-overlay">
+    <div class="form-content">
+      <button onclick="closeForm()" class="close-button">✖</button>
+
+      <form id="multiStepForm" enctype="multipart/form-data">
+        <div class="step active" id="step1">
+          <div class="faq-item">
+            <button type="button" class="faq-question">Как проходит заказ?</button>
+            <div class="faq-answer">
+              Вы указываете данные, оплачиваете всего 1000 рублей. После этого я пришлю вам портрет на согласование и обсуждение деталей.
+            </div>
+          </div>
+          <button type="button" onclick="nextStep()">Далее</button>
+        </div>
+
+        <div class="step" id="step2">
+          <input type="text" name="firstName" placeholder="Имя" required />
+          <input type="text" name="lastName" placeholder="Фамилия" required />
+          <input type="tel" name="phone" placeholder="Телефон" required />
+          <select name="contactMethod" required>
+            <option value="">Выберите способ связи</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="telegram">Telegram</option>
+          </select>
+          <button type="button" onclick="nextStep()">Далее</button>
+        </div>
+
+        <div class="step" id="step3">
+          <div class="gender-select">
+            <button type="button" onclick="showImages('male')">🐶 Кобель (мальчик)</button>
+            <button type="button" onclick="showImages('female')">🐶 Девочка</button>
+          </div>
+          <div class="image-grid" id="imageGrid"></div>
+          <button type="button" onclick="nextStep()">Далее</button>
+        </div>
+
+        <div class="step" id="step4">
+          <div class="upload-block">
+            <label for="userPhoto">Загрузите фото вашего питомца *</label>
+            <input type="file" id="userPhoto" name="userPhoto" accept="image/*" required />
+          </div>
+          <button type="button" onclick="nextStep()">Далее</button>
+        </div>
+
+        <div class="step" id="step5">
+          <div class="explanation">
+            Для начала работы достаточно внести <strong>1000 ₽</strong><br />После оплаты я отправлю макет и мы обсудим детали доставки.
+          </div>
+          <button type="submit">Оплатить 1000 ₽</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- СТИЛИ -->
+
+
+<!-- JS -->
+
+
+              </div>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Custom Sketches</title>
@@ -96,74 +164,6 @@
             <h2><span>Hi! My name is</span><span class="underlight">Irina,</span><span> I'm an artist and tattoo designer.</span></h2>
             <p>I create unique tattoo sketches that highlight your individuality. My goal is to design something that’s not only beautiful, but also personally meaningful to you.</p>           
               <!-- Ваша существующая структура -->
-              <div>
-<!-- КНОПКА ОТКРЫТИЯ -->
-<a class="card__title" href="javascript:void(0);" onclick="openForm()">Мастер Лапа</a>
-
-<!-- ФОРМА-ПЕРЕКРЫТИЕ -->
-<div id="fullscreenForm" style="display: none;">
-  <div class="form-overlay">
-    <div class="form-content">
-      <button onclick="closeForm()" class="close-button">✖</button>
-
-      <form id="multiStepForm" enctype="multipart/form-data">
-        <div class="step active" id="step1">
-          <div class="faq-item">
-            <button type="button" class="faq-question">Как проходит заказ?</button>
-            <div class="faq-answer">
-              Вы указываете данные, оплачиваете всего 1000 рублей. После этого я пришлю вам портрет на согласование и обсуждение деталей.
-            </div>
-          </div>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step2">
-          <input type="text" name="firstName" placeholder="Имя" required />
-          <input type="text" name="lastName" placeholder="Фамилия" required />
-          <input type="tel" name="phone" placeholder="Телефон" required />
-          <select name="contactMethod" required>
-            <option value="">Выберите способ связи</option>
-            <option value="whatsapp">WhatsApp</option>
-            <option value="telegram">Telegram</option>
-          </select>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step3">
-          <div class="gender-select">
-            <button type="button" onclick="showImages('male')">🐶 Кобель (мальчик)</button>
-            <button type="button" onclick="showImages('female')">🐶 Девочка</button>
-          </div>
-          <div class="image-grid" id="imageGrid"></div>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step4">
-          <div class="upload-block">
-            <label for="userPhoto">Загрузите фото вашего питомца *</label>
-            <input type="file" id="userPhoto" name="userPhoto" accept="image/*" required />
-          </div>
-          <button type="button" onclick="nextStep()">Далее</button>
-        </div>
-
-        <div class="step" id="step5">
-          <div class="explanation">
-            Для начала работы достаточно внести <strong>1000 ₽</strong><br />После оплаты я отправлю макет и мы обсудим детали доставки.
-          </div>
-          <button type="submit">Оплатить 1000 ₽</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-<!-- СТИЛИ -->
-
-
-<!-- JS -->
-
-
-              </div>
             
           </div>
         </div>
