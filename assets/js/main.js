@@ -139,24 +139,35 @@
     document.getElementById('fullscreenForm').style.display = 'block';
   }
 
-// 1. Открытие формы + добавление состояния в историю
+// Открытие формы с pushState
 openFormButton.onclick = () => {
   formOverlay.style.display = 'flex';
-  history.pushState({ formOpen: true }, '', '#form'); // добавляем виртуальный шаг
-};
-
-// 2. Закрытие формы по клику вне (и возврат назад в истории)
-formOverlay.onclick = (e) => {
-  if (e.target === formOverlay) {
-    formOverlay.style.display = 'none';
-    if (history.state?.formOpen) history.back(); // откатываем шаг
+  // Добавляем новый шаг истории, если еще не открыт
+  if (!history.state || !history.state.formOpen) {
+    history.pushState({ formOpen: true }, '', '#form');
   }
 };
 
-// 3. Перехват кнопки "назад"
+// Закрытие по клику вне формы
+formOverlay.onclick = (e) => {
+  if (e.target === formOverlay) {
+    formOverlay.style.display = 'none';
+    if (history.state?.formOpen) {
+      history.back(); // откат назад
+    }
+  }
+};
+
+// Обработка кнопки "назад"
 window.addEventListener('popstate', (event) => {
   if (event.state?.formOpen) {
+    // Если state говорит, что форма была открыта, мы её закрываем
     formOverlay.style.display = 'none';
+  } else {
+    // Если вернулись в состояние ДО открытия формы — тоже закрываем на всякий
+    if (formOverlay.style.display === 'flex') {
+      formOverlay.style.display = 'none';
+    }
   }
 });
 
