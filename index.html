@@ -95,10 +95,32 @@
           <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
             <h2><span>Hi! My name is</span><span class="underlight">Irina,</span><span> I'm an artist and tattoo designer.</span></h2>
             <p>I create unique tattoo sketches that highlight your individuality. My goal is to design something that’s not only beautiful, but also personally meaningful to you.</p>
-            <body>            
-              <!-- Ваша существующая структура -->
-              <div>
+
+
   <style>
+        body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
     .form-container {
       background: #1a1a1a;
       border-radius: 20px;
@@ -108,11 +130,19 @@
       box-shadow: 0 0 20px #00f7ff99;
       display: none;
     }
-    .step { display: none; }
-    .step.active { display: block; animation: fadeIn 0.5s ease-in-out; }
+    .step {
+      display: none;
+    }
+    .step.active {
+      display: block;
+      animation: fadeIn 0.5s ease-in-out;
+    }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
+    }
+    .faq-item {
+      margin-bottom: 10px;
     }
     .faq-question {
       background: #222;
@@ -120,6 +150,7 @@
       color: #00f7ff;
       width: 100%;
       padding: 10px;
+      text-align: left;
       font-weight: bold;
       cursor: pointer;
       border-radius: 10px;
@@ -148,12 +179,16 @@
       font-weight: bold;
       transition: background-color 0.3s;
     }
-    button:hover { background-color: #00c9ff; }
+    button:hover {
+      background-color: #00c9ff;
+    }
+
     .gender-select {
       display: flex;
       gap: 20px;
       margin: 20px 0;
     }
+
     .gender-select button {
       flex: 1;
       padding: 14px;
@@ -165,10 +200,12 @@
       border-radius: 10px;
       transition: 0.3s;
     }
+
     .gender-select button:hover {
       background-color: #00f7ff;
       color: #111;
     }
+
     .image-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -180,17 +217,20 @@
       border-radius: 10px;
       cursor: pointer;
       border: 3px solid transparent;
+      object-fit: contain;
       height: 150px;
-      object-fit: cover;
       background: #333;
     }
-    .image-grid img.selected { border-color: #00f7ff; }
+    .image-grid img.selected {
+      border-color: #00f7ff;
+    }
     .explanation {
       margin-top: 20px;
       font-size: 14px;
       color: #bbb;
       text-align: center;
     }
+
     .upload-block {
       margin-top: 20px;
     }
@@ -200,24 +240,37 @@
       font-weight: bold;
       color: #00f7ff;
     }
+    .upload-block input[type="file"] {
+      background-color: #222;
+      border: none;
+      color: #fafafa;
+      padding: 10px;
+      border-radius: 10px;
+      width: 100%;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
-  <a class="card__title" href="javascript:void(0);" onclick="openForm()">Мастер Лапа</a>
+<a class="card__title" href="javascript:void(0);" onclick="openForm()">Мастер Лапа</a>
+
+<div class="overlay" id="formOverlay">
 
   <div class="form-container">
     <form id="multiStepForm" enctype="multipart/form-data">
-      <!-- Step 1 -->
-      <div class="step active">
-        <button type="button" class="faq-question">Как проходит заказ?</button>
-        <div class="faq-answer">
-          Вы указываете данные, оплачиваете всего 1000 рублей. После этого я пришлю вам портрет на согласование и обсуждение деталей.
+      <!-- Шаг 1: FAQ -->
+      <div class="step active" id="step1">
+        <div class="faq-item">
+          <button type="button" class="faq-question">Как проходит заказ?</button>
+          <div class="faq-answer">
+            Вы указываете данные, оплачиваете всего 1000 рублей. После этого я пришлю вам портрет на согласование и обсуждение деталей.
+          </div>
         </div>
         <button type="button" onclick="nextStep()">Далее</button>
       </div>
 
-      <!-- Step 2 -->
-      <div class="step">
+      <!-- Шаг 2: Контактные данные -->
+      <div class="step" id="step2">
         <input type="text" name="firstName" placeholder="Имя" required />
         <input type="text" name="lastName" placeholder="Фамилия" required />
         <input type="tel" name="phone" placeholder="Телефон" required />
@@ -229,8 +282,8 @@
         <button type="button" onclick="nextStep()">Далее</button>
       </div>
 
-      <!-- Step 3 -->
-      <div class="step">
+      <!-- Шаг 3: Пол и картинки -->
+      <div class="step" id="step3">
         <div class="gender-select">
           <button type="button" onclick="showImages('male')">🐶 Кобель (мальчик)</button>
           <button type="button" onclick="showImages('female')">🐶 Девочка</button>
@@ -239,8 +292,8 @@
         <button type="button" onclick="nextStep()">Далее</button>
       </div>
 
-      <!-- Step 4 -->
-      <div class="step">
+      <!-- Шаг 4: Загрузка фото -->
+      <div class="step" id="step4">
         <div class="upload-block">
           <label for="userPhoto">Загрузите фото вашего питомца *</label>
           <input type="file" id="userPhoto" name="userPhoto" accept="image/*" required />
@@ -248,155 +301,233 @@
         <button type="button" onclick="nextStep()">Далее</button>
       </div>
 
-      <!-- Step 5 -->
-      <div class="step">
+      <!-- Шаг 5: Оплата -->
+      <div class="step" id="step5">
         <div class="explanation">
-          Для начала работы достаточно внести <strong>1000 ₽</strong><br />
-          После оплаты я отправлю макет и мы обсудим детали доставки.
+          Для начала работы достаточно внести <strong>1000 ₽</strong><br />После оплаты я отправлю макет и мы обсудим детали доставки.
         </div>
         <button type="submit">Оплатить 1000 ₽</button>
       </div>
     </form>
   </div>
 
-  <script>
-    const steps = document.querySelectorAll('.step');
-    let currentStep = 0;
-    let selectedGender = '';
-    let selectedImageSrc = '';
+<script>
+  const steps = document.querySelectorAll('.step');
+  let currentStep = 0;
+  const faqButtons = document.querySelectorAll('.faq-question');
 
-    function openForm() {
-      document.querySelector('.form-container').style.display = 'block';
-    }
+  faqButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const answer = btn.nextElementSibling;
+      answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    });
+  });
 
-    function nextStep() {
-      const inputs = steps[currentStep].querySelectorAll('input, select');
-      for (const input of inputs) {
-        if (!input.checkValidity()) {
-          input.reportValidity();
-          return;
-        }
+  function nextStep() {
+    const currentFormStep = steps[currentStep].querySelectorAll('input, select');
+    let allValid = true;
+
+    currentFormStep.forEach(field => {
+      if (!field.checkValidity()) {
+        allValid = false;
+        field.reportValidity();
       }
-
-      if (currentStep === 2 && !selectedImageSrc) {
-        alert("Пожалуйста, выберите изображение.");
-        return;
-      }
-
-      steps[currentStep].classList.remove('active');
-      currentStep++;
-      steps[currentStep].classList.add('active');
-    }
-
-    document.querySelectorAll('.faq-question').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const ans = btn.nextElementSibling;
-        ans.style.display = ans.style.display === 'block' ? 'none' : 'block';
-      });
     });
 
-    const maleImages = [...Array(10)].map((_, i) => `https://via.placeholder.com/220x150?text=Мальчик+${i + 1}`);
-    const femaleImages = [...Array(10)].map((_, i) => `https://via.placeholder.com/220x150?text=Девочка+${i + 1}`);
+    if (currentStep === 2) {
+      const selectedImg = document.querySelector('#imageGrid img.selected');
+      if (!selectedImg) {
+        alert('Пожалуйста, выберите изображение.');
+        allValid = false;
+      }
+    }
 
-    function showImages(gender) {
-      selectedGender = gender;
+    if (!allValid) return;
+
+    steps[currentStep].classList.remove('active');
+    currentStep++;
+    steps[currentStep].classList.add('active');
+  }
+
+function openForm() {
+  document.getElementById('formOverlay').style.display = 'flex';
+}
+
+
+  // Данные картинок (10 уникальных для каждого пола)
+  const maleImages = [
+    'https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/8AJNx%2B.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNi5wbmc=/original/GZ4E3J.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOC5wbmc=/original/B5rkrS.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOS5wbmc=/original/Gy21Gc.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/8AJNx%2B.png', // для примера, лучше заменить на уникальную
+    'https://img.itch.zone/aW1nLzcyNzgxNi5wbmc=/original/GZ4E3J.png', 
+    'https://img.itch.zone/aW1nLzcyNzgxOC5wbmc=/original/B5rkrS.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOS5wbmc=/original/Gy21Gc.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/8AJNx%2B.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNi5wbmc=/original/GZ4E3J.png'
+  ];
+
+  const femaleImages = [
+    'https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/9JvYFO.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNi5wbmc=/original/QMfrOj.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOC5wbmc=/original/PBRVnQ.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOS5wbmc=/original/FzU5M4.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNy5wbmc=/original/9JvYFO.png',
+    'https://img.itch.zone/aW1nLzcyNzgxNi5wbmc=/original/QMfrOj.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOC5wbmc=/original/PBRVnQ.png',
+    'https://img.itch.zone/aW1nLzcyNzgxOS5wbmc=/original/FzU5M4.png'
+  ];
+
+  function showImages(gender) {
+    const imageGrid = document.getElementById('imageGrid');
+    imageGrid.innerHTML = '';
+    const images = gender === 'male' ? maleImages : femaleImages;
+
+    images.forEach(src => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.addEventListener('click', () => img.classList.toggle('selected'));
+      imageGrid.appendChild(img);
+    });
+  }
+  
+ let selectedGender = '';
+  let selectedImageSrc = '';
+
+  function showImages(gender) {
+    selectedGender = gender;
+    const imageGrid = document.getElementById('imageGrid');
+    imageGrid.innerHTML = '';
+    const images = gender === 'male' ? maleImages : femaleImages;
+    images.forEach((src, index) => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = `Выбор ${index + 1}`;
+      img.onclick = () => {
+        document.querySelectorAll('#imageGrid img').forEach(i => i.classList.remove('selected'));
+        img.classList.add('selected');
+        selectedImageSrc = src;
+      };
+      imageGrid.appendChild(img);
+    });
+  }
+
+  // Отправка в телеграм при сабмите формы
+  const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
+  const telegramChatId = "5929919501";
+
+document.getElementById('multiStepForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  // Проверим загрузку фото
+  const userPhotoInput = document.getElementById('userPhoto');
+  if (!userPhotoInput.files.length) {
+    alert('Пожалуйста, загрузите фото питомца');
+    return;
+  }
+
+  // Собираем данные из формы
+  const formData = new FormData(e.target);
+  const data = {
+    firstName: formData.get('firstName'),
+    lastName: formData.get('lastName'),
+    phone: formData.get('phone'),
+    contactMethod: formData.get('contactMethod'),
+    gender: selectedGender,
+    selectedImage: selectedImageSrc,
+    userPhoto: userPhotoInput.files[0],
+  };
+
+  // Создаем текстовое сообщение
+  const message = `
+Новый заказ портрета:
+Имя: ${data.firstName}
+Фамилия: ${data.lastName}
+Телефон: ${data.phone}
+Способ связи: ${data.contactMethod}
+Пол собаки: ${data.gender === 'male' ? 'Кобель (мальчик)' : 'Девочка'}
+Выбранная картинка: ${data.selectedImage}
+Фото питомца: ${data.userPhoto.name}
+`;
+
+  // Создаем FormData для отправки
+  const messageData = new FormData();
+  messageData.append('chat_id', telegramChatId);
+  messageData.append('text', message);
+  messageData.append('parse_mode', 'HTML');
+
+  // Отправляем текстовое сообщение в Telegram
+  try {
+    const urlMessage = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
+    const resMessage = await fetch(urlMessage, {
+      method: 'POST',
+      body: messageData,  // Отправляем сообщение
+    });
+
+    const jsonMessage = await resMessage.json();
+    if (!jsonMessage.ok) {
+      alert('Ошибка отправки сообщения: ' + jsonMessage.description);
+      return;
+    }
+
+    // Отправляем фото в Telegram
+    const photoData = new FormData();
+    photoData.append('chat_id', telegramChatId);
+    photoData.append('photo', data.userPhoto);  // Добавляем фото
+    const urlPhoto = `https://api.telegram.org/bot${telegramToken}/sendPhoto`;
+    
+    const resPhoto = await fetch(urlPhoto, {
+      method: 'POST',
+      body: photoData,  // Отправляем фото
+    });
+
+    const jsonPhoto = await resPhoto.json();
+    if (jsonPhoto.ok) {
+      window.location.href = 'https://vk.com';
+      e.target.reset();
+      currentStep = 0;
+      steps.forEach(s => s.classList.remove('active'));
+      steps[0].classList.add('active');
+      selectedGender = '';
       selectedImageSrc = '';
-      const grid = document.getElementById('imageGrid');
-      grid.innerHTML = '';
-      const images = gender === 'male' ? maleImages : femaleImages;
-      images.forEach((src, index) => {
-        const img = document.createElement('img');
-        img.src = src;
-        img.alt = `Выбор ${index + 1}`;
-        img.onclick = () => {
-          document.querySelectorAll('#imageGrid img').forEach(i => i.classList.remove('selected'));
-          img.classList.add('selected');
-          selectedImageSrc = src;
-        };
-        grid.appendChild(img);
-      });
+      document.getElementById('imageGrid').innerHTML = '';
+    } else {
+      alert('Ошибка отправки фото: ' + jsonPhoto.description);
     }
+  } catch (err) {
+    alert('Ошибка отправки: ' + err.message);
+  }
+});
 
-    const telegramToken = "ВАШ_ТОКЕН";
-    const telegramChatId = "ВАШ_CHAT_ID";
+</script>
 
-    document.getElementById('multiStepForm').addEventListener('submit', async e => {
-      e.preventDefault();
-      const form = e.target;
-      const fileInput = document.getElementById('userPhoto');
-
-      if (!fileInput.files.length) {
-        alert("Пожалуйста, загрузите фото питомца");
-        return;
-      }
-
-      const formData = new FormData(form);
-      const message = `Новый заказ портрета:\nИмя: ${formData.get("firstName")}\nФамилия: ${formData.get("lastName")}\nТелефон: ${formData.get("phone")}\nСвязь: ${formData.get("contactMethod")}\nПол: ${selectedGender}\nВыбранная картинка: ${selectedImageSrc}\nФайл: ${fileInput.files[0].name}`;
-
-      const msgData = new FormData();
-      msgData.append("chat_id", telegramChatId);
-      msgData.append("text", message);
-
-      try {
-        const msgRes = await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
-          method: "POST",
-          body: msgData
-        });
-
-        const photoData = new FormData();
-        photoData.append("chat_id", telegramChatId);
-        photoData.append("photo", fileInput.files[0]);
-
-        await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
-          method: "POST",
-          body: photoData
-        });
-
-        alert("Форма успешно отправлена!");
-        form.reset();
-        currentStep = 0;
-        steps.forEach(s => s.classList.remove('active'));
-        steps[0].classList.add('active');
-        selectedGender = '';
-        selectedImageSrc = '';
-        document.getElementById('imageGrid').innerHTML = '';
-        window.location.href = "https://vk.com";
-      } catch (err) {
-        alert("Ошибка отправки: " + err.message);
-      }
-    });
-  </script>
 </body>
-</html>
-
-              </div>
-            </body>
-            
+    
           </div>
         </div>
       </div>
 
     </section><!-- /Hero Section -->
-    <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
-      <video autoplay muted loop playsinline
-        style="
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          height: 100%;
-          transform: translate(-50%, -50%);
-          object-fit: contain;
-          pointer-events: none;
-          user-select: none;
-        "
-        id="background-video"
-        oncontextmenu="return false;"
-        onselectstart="return false;"
-        ondragstart="return false;"
-      >
-        <source src="assets/vid/123.mp4" type="video/mp4">
-      </video>
-    </section>
+<section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
+  <iframe
+    src="https://player.vimeo.com/video/471715460?autoplay=1&muted=1&loop=1&background=1"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen
+    style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100vw;
+      height: 100vh;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      user-select: none;
+    "
+  ></iframe>
+</section>
+
 
         <script>
       const video = document.getElementById("background-video");
