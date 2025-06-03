@@ -139,4 +139,24 @@
     document.getElementById('fullscreenForm').style.display = 'block';
   }
 
+// 1. Открытие формы + добавление состояния в историю
+openFormButton.onclick = () => {
+  formOverlay.style.display = 'flex';
+  history.pushState({ formOpen: true }, '', '#form'); // добавляем виртуальный шаг
+};
+
+// 2. Закрытие формы по клику вне (и возврат назад в истории)
+formOverlay.onclick = (e) => {
+  if (e.target === formOverlay) {
+    formOverlay.style.display = 'none';
+    if (history.state?.formOpen) history.back(); // откатываем шаг
+  }
+};
+
+// 3. Перехват кнопки "назад"
+window.addEventListener('popstate', (event) => {
+  if (event.state?.formOpen) {
+    formOverlay.style.display = 'none';
+  }
+});
 
