@@ -1378,6 +1378,22 @@ section,
   overflow: hidden;
 }
 
+.gallery-item img {
+  transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+.gallery .gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+
 .gallery .gallery-links {
   position: absolute;
   inset: 0;
