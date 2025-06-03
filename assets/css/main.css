@@ -1378,10 +1378,6 @@ section,
   overflow: hidden;
 }
 
-.gallery-item img {
-  transition: 0.3s;
-}
-
 .gallery .gallery-links {
   position: absolute;
   inset: 0;
