@@ -1373,9 +1373,13 @@ section,
 --------------------------------------------------------------*/
 
 
-.gallery .gallery-item {
+.gallery  {
   position: relative;
   overflow: hidden;
+}
+
+.gallery-item img {
+  transition: 0.3s;
 }
 
 .gallery .gallery-links {
