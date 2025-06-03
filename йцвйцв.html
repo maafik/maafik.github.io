@@ -76,7 +76,6 @@
       color: #fff;
       box-sizing: border-box;
     }
-    
 
     .image-gallery {
       display: grid;
@@ -91,6 +90,14 @@
     }
 
     .image-gallery img.selected {
+      border: 2px solid #9d62cf;
+    }
+
+    #selectedImagePreview img {
+      max-width: 100px;
+      max-height: 100px;
+      margin-left: 10px;
+      border-radius: 5px;
       border: 2px solid #9d62cf;
     }
   </style>
@@ -152,7 +159,6 @@
     </div>
   </div>
 
-  <!-- Галерея выбора образа -->
   <div class="overlay" id="styleGallery" style="display: none;">
     <div class="form-container">
       <h2>Выберите образ</h2>
@@ -175,6 +181,7 @@
     const selectedImagePreview = document.getElementById('selectedImagePreview');
 
     let selectedImageSrc = "";
+    let selectedImageName = "";
 
     openFormButton.onclick = () => formOverlay.style.display = 'flex';
 
@@ -190,10 +197,14 @@
         imageGallery.innerHTML = '';
         for (let i = 1; i <= 10; i++) {
           const img = document.createElement('img');
-          img.src = `images/${gender}_${i}.jpg`; // Замените на свои ссылки
+          img.src = `images/${gender}_${i}.jpg`;
           img.onclick = () => {
             selectedImageSrc = img.src;
-            selectedImagePreview.innerHTML = `<p>Выбранный образ:</p><img src="${img.src}" style="max-width: 100%; border-radius: 10px;" />`;
+            selectedImageName = img.src.split('/').pop();
+            selectedImagePreview.innerHTML = `
+              <p>Выбранный образ:</p>
+              <img src="${img.src}" />
+            `;
             galleryOverlay.style.display = 'none';
           };
           imageGallery.appendChild(img);
@@ -205,6 +216,11 @@
     tattooForm.addEventListener('submit', async (e) => {
       e.preventDefault();
 
+      if (!selectedImageName) {
+        alert("Пожалуйста, выберите образ перед отправкой формы.");
+        return;
+      }
+
       const formData = new FormData(tattooForm);
 
       const message = `Новый заказ:\n` +
@@ -213,7 +229,7 @@
         `Связь: ${formData.get('contactMethod')}\n` +
         `Размер: ${formData.get('size')}\n` +
         `Пол собаки: ${formData.get('gender')}\n` +
-        (selectedImageSrc ? `Выбранный образ: ${selectedImageSrc.split('/').pop()}\n` : '');
+        `Выбранный образ: ${selectedImageName}\n`;
 
       try {
         await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
