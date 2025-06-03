@@ -1371,18 +1371,7 @@ section,
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-.gallery {
-  position: relative;
-  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
-  gap: 10px; /* отступы между элементами */
-}
 
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-}
 
 .gallery .gallery-item {
   position: relative;
