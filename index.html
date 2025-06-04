@@ -174,17 +174,24 @@
     }
     
 
-    .image-gallery {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
 
-    .image-gallery img {
-      border-radius: 10px;
-      cursor: pointer;
-      border: 2px solid transparent;
-    }
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
 
     .image-gallery img.selected {
       border: 2px solid #9d62cf;
