@@ -388,11 +388,7 @@
 </div>
     <section id="gallery-4" class="gallery section">
       
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Адаптивный баннер</title>
+
   <style>
     #popupBanner {
       display: none;
@@ -411,8 +407,6 @@
       position: relative;
       max-width: 90%;
       max-height: 90%;
-      width: auto;
-      height: auto;
     }
 
     .banner-content img {
@@ -437,7 +431,6 @@
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      z-index: 10000;
     }
 
     .btn-get-started1 {
@@ -449,7 +442,6 @@
       border-radius: 12px;
       font-size: 16px;
       cursor: pointer;
-      z-index: 10000;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     }
 
@@ -477,7 +469,7 @@
       }
     }
   </style>
-</head>
+
 <body>
 
 <!-- Баннер -->
@@ -485,12 +477,18 @@
   <div class="banner-content">
     <button class="closeBtn" onclick="closeBanner()">×</button>
     <img src="images/banner.jpg" alt="Баннер">
-    <div style="text-align: center;">
-      <button class="btn-get-started1" id="openFormButton"
-        onclick="document.getElementById('formOverlay')?.style.display='flex'; closeBanner(); return false;">
-        Заполнить форму
-      </button>
+    <div>
+      <button class="btn-get-started1" onclick="openForm()">Заполнить форму</button>
     </div>
+  </div>
+</div>
+
+<!-- Форма -->
+<div id="formOverlay" style="display: none; position: fixed; top:0; left:0; width:100%; height:100%; background:#fff; z-index:10000; justify-content:center; align-items:center;">
+  <div>
+    <h2>Форма заказа</h2>
+    <!-- Тут форма -->
+    <button onclick="closeForm()">Закрыть</button>
   </div>
 </div>
 
@@ -507,6 +505,8 @@
       const banner = document.getElementById('popupBanner');
       banner.style.display = 'flex';
       bannerShown = true;
+
+      // ➕ Добавляем шаг в истории
       history.pushState({ bannerOpen: true }, '', '#banner');
     }
   }
@@ -515,8 +515,10 @@
     const banner = document.getElementById('popupBanner');
     if (banner.style.display === 'flex') {
       banner.style.display = 'none';
+
+      // ➖ Удаляем шаг из истории, но не перезагружаем
       if (history.state?.bannerOpen) {
-        history.back(); // вернёт в предыдущее состояние
+        history.back(); // Вернёт назад (в URL и в истории)
       }
     }
   }
@@ -534,8 +536,10 @@
   });
 </script>
 
+
 </body>
-</html>
+
+
 
 
 
