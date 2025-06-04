@@ -502,29 +502,42 @@
     const scrollPercent = (scrollTop + windowHeight) / documentHeight;
 
     if (scrollPercent >= 0.7 && !bannerShown) {
-      const banner = document.getElementById('popupBanner');
-      banner.style.display = 'flex';
+      document.getElementById('popupBanner').style.display = 'flex';
       bannerShown = true;
-
-      // ➕ Добавляем шаг в истории
-      history.pushState({ bannerOpen: true }, '', '#banner');
+      history.pushState({ popupOpen: true }, '', '#popup');
     }
   }
 
   function closeBanner() {
-    const banner = document.getElementById('popupBanner');
-    if (banner.style.display === 'flex') {
-      banner.style.display = 'none';
+    document.getElementById('popupBanner').style.display = 'none';
+    if (history.state?.popupOpen) {
+      history.back(); // чтобы "назад" вернул в прежнее состояние
+    }
+  }
 
-      // ➖ Удаляем шаг из истории, но не перезагружаем
-      if (history.state?.bannerOpen) {
-        history.back(); // Вернёт назад (в URL и в истории)
-      }
+  function openForm() {
+    document.getElementById('popupBanner').style.display = 'none';
+    document.getElementById('formOverlay').style.display = 'flex';
+    history.pushState({ formOpen: true }, '', '#form');
+  }
+
+  function closeForm() {
+    document.getElementById('formOverlay').style.display = 'none';
+    if (history.state?.formOpen) {
+      history.back(); // откатить назад
     }
   }
 
   window.addEventListener('popstate', (event) => {
     const banner = document.getElementById('popupBanner');
+    const form = document.getElementById('formOverlay');
+
+    // Если форма открыта — закрыть форму
+    if (form.style.display === 'flex') {
+      form.style.display = 'none';
+    }
+
+    // Если баннер открыт — закрыть баннер
     if (banner.style.display === 'flex') {
       banner.style.display = 'none';
     }
@@ -535,7 +548,6 @@
     window.addEventListener('scroll', showBannerIfScrolledEnough);
   });
 </script>
-
 
 </body>
 
