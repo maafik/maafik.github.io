@@ -394,7 +394,6 @@
   <meta charset="UTF-8">
   <title>Адаптивный баннер</title>
   <style>
-
     #popupBanner {
       display: none;
       position: fixed;
@@ -423,24 +422,23 @@
       border-radius: 16px;
     }
 
-.closeBtn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
-  border: none;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10000;
-}
-
+    .closeBtn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+      border: none;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10000;
+    }
 
     .btn-get-started1 {
       margin-top: 20px;
@@ -478,7 +476,6 @@
         height: 32px;
       }
     }
-    
   </style>
 </head>
 <body>
@@ -486,19 +483,16 @@
 <!-- Баннер -->
 <div id="popupBanner">
   <div class="banner-content">
-    <button class="closeBtn" onclick="document.getElementById('popupBanner').style.display='none'">×</button>
+    <button class="closeBtn" onclick="closeBanner()">×</button>
     <img src="images/banner.jpg" alt="Баннер">
-
-<div style="text-align: center;">
-  <button class="btn-get-started1" id="openFormButton"
-    onclick="document.getElementById('formOverlay').style.display='flex'; document.getElementById('popupBanner').style.display='none'; return false;">
-    Заполнить форму
-  </button>
-</div>
-
+    <div style="text-align: center;">
+      <button class="btn-get-started1" id="openFormButton"
+        onclick="document.getElementById('formOverlay')?.style.display='flex'; closeBanner(); return false;">
+        Заполнить форму
+      </button>
+    </div>
   </div>
 </div>
-
 
 <script>
   let bannerShown = false;
@@ -512,18 +506,24 @@
     if (scrollPercent >= 0.7 && !bannerShown) {
       const banner = document.getElementById('popupBanner');
       banner.style.display = 'flex';
-
-      // ✅ Добавляем фейковый шаг в историю, чтобы назад не ушло со страницы
-      history.pushState({ bannerOpen: true }, '', '#banner');
-
       bannerShown = true;
+      history.pushState({ bannerOpen: true }, '', '#banner');
     }
   }
 
-  // Кнопка "назад" — просто закрываем баннер
+  function closeBanner() {
+    const banner = document.getElementById('popupBanner');
+    if (banner.style.display === 'flex') {
+      banner.style.display = 'none';
+      if (history.state?.bannerOpen) {
+        history.back(); // вернёт в предыдущее состояние
+      }
+    }
+  }
+
   window.addEventListener('popstate', (event) => {
     const banner = document.getElementById('popupBanner');
-    if (event.state?.bannerOpen !== true && banner.style.display === 'flex') {
+    if (banner.style.display === 'flex') {
       banner.style.display = 'none';
     }
   });
@@ -534,9 +534,9 @@
   });
 </script>
 
-
 </body>
 </html>
+
 
 
 

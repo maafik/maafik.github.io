@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,6 @@
       height: 3000px;
       font-family: Arial, sans-serif;
     }
-
     #popupBanner {
       display: none;
       position: fixed;
@@ -18,7 +17,7 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background-color: rgba(0, 0, 0, 0.85); /* затемнение фона */
+      background-color: rgba(0, 0, 0, 0.85);
       z-index: 9999;
       justify-content: center;
       align-items: center;
@@ -43,39 +42,48 @@
       position: absolute;
       top: 10px;
       right: 10px;
-      font-size: 28px;
+      font-size: 24px;
       color: #fff;
-      background: rgba(0,0,0,0.4);
+      background: rgba(0, 0, 0, 0.4);
       border: none;
       border-radius: 50%;
       width: 36px;
       height: 36px;
-      line-height: 30px;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       cursor: pointer;
       z-index: 10000;
     }
 
-    .btn-get-started {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+    .btn-get-started1 {
+      margin-top: 20px;
+      padding: 12px 24px;
       background-color: #27a776;
       color: #fff;
       border: none;
       border-radius: 12px;
-      padding: 12px 24px;
       font-size: 16px;
       cursor: pointer;
       z-index: 10000;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     }
 
+    .banner-content > div {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      text-align: center;
+    }
+
     @media (max-width: 600px) {
-      .btn-get-started {
-        font-size: 15px;
-        padding: 10px 20px;
+      .btn-get-started1 {
+        font-size: 13px;
+        padding: 13px 3px;
+        width: 90%;
+        max-width: 300px;
       }
 
       .closeBtn {
@@ -91,24 +99,39 @@
 <!-- Баннер -->
 <div id="popupBanner">
   <div class="banner-content">
-    <button class="closeBtn" onclick="document.getElementById('popupBanner').style.display='none'">×</button>
+    <button class="closeBtn" id="closeBannerBtn">×</button>
     <img src="images/banner.jpg" alt="Баннер">
-    <a href="#" class="btn-get-started" onclick="document.getElementById('formOverlay').style.display='flex'; return false;">Заказать</a>
-  </div>
-</div>
-
-<!-- Пример формы -->
-<div id="formOverlay" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); z-index:10000; justify-content:center; align-items:center; color:white;">
-  <div style="background:#222; padding:30px; border-radius:12px; max-width:90vw;">
-    <h2>Форма заказа</h2>
-    <!-- Ваша форма -->
-    <button onclick="document.getElementById('formOverlay').style.display='none'">Закрыть</button>
+    <div>
+      <button class="btn-get-started1" id="openFormButton">
+        Заполнить форму
+      </button>
+    </div>
   </div>
 </div>
 
 <script>
   let bannerShown = false;
 
+  function showBanner() {
+    const banner = document.getElementById('popupBanner');
+    banner.style.display = 'flex';
+    bannerShown = true;
+
+    // Добавляем в историю, чтобы можно было нажать "назад"
+    history.pushState({ bannerOpen: true }, '', location.href);
+  }
+
+  function closeBanner() {
+    const banner = document.getElementById('popupBanner');
+    banner.style.display = 'none';
+
+    // Удаляем шаг истории, если баннер был открыт
+    if (history.state?.bannerOpen) {
+      history.back();
+    }
+  }
+
+  // Показ баннера при скролле
   function showBannerIfScrolledEnough() {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     const windowHeight = window.innerHeight;
@@ -116,13 +139,32 @@
     const scrollPercent = (scrollTop + windowHeight) / documentHeight;
 
     if (scrollPercent >= 0.7 && !bannerShown) {
-      document.getElementById('popupBanner').style.display = 'flex';
-      bannerShown = true;
+      showBanner();
     }
   }
 
-  window.addEventListener('load', () => {
-    bannerShown = false;
+  // Назад в истории закрывает баннер, но не уходит со страницы
+  window.addEventListener('popstate', (event) => {
+    const banner = document.getElementById('popupBanner');
+    if (banner.style.display === 'flex') {
+      banner.style.display = 'none';
+    }
+  });
+
+  // Клик на крестик
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('closeBannerBtn').addEventListener('click', () => {
+      closeBanner();
+    });
+
+    // Кнопка "Заполнить форму"
+    document.getElementById('openFormButton').addEventListener('click', () => {
+      closeBanner();
+      // Тут можешь открыть форму, если она есть:
+      // document.getElementById('formOverlay').style.display = 'flex';
+    });
+
+    // Показ при скролле
     window.addEventListener('scroll', showBannerIfScrolledEnough);
   });
 </script>
