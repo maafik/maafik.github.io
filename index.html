@@ -288,7 +288,7 @@
       chooseBtnWrapper.innerHTML = `<button type="button" class="button" id="chooseStyle">Выбрать образ</button>`;
       document.getElementById('chooseStyle').onclick = () => {
         imageGallery.innerHTML = '';
-        for (let i = 1; i <= 10; i++) {
+        for (let i = 1; i <= 24; i++) {
           const img = document.createElement('img');
           img.src = `images/${gender}_${i}.jpg`; // Замените на свои ссылки
           img.onclick = () => {
@@ -366,21 +366,172 @@
       >
         <source src="assets/vid/123.mp4" type="video/mp4">
       </video>
+            <script>
+      const video = document.getElementById("background-video");
+      video.playbackRate = 0.7; // Уменьшаем скорость видео в 2 раза
+    </script>
     </section>
     <!-- Gallery Section -->
 
 <div class="how-to-order" style="text-align: center; padding: 40px 20px;">
   <h2 style="font-size: 28px; margin-bottom: 20px;">Как заказать картину собаки</h2>
   <ul style="list-style: none; padding: 0; margin: 0 0 30px 0;">
-    <li style="font-size: 18px; margin: 10px 0;">1. Заполни форму и отправь фото собаки</li>
-    <li style="font-size: 18px; margin: 10px 0;">2. Выбери образ</li>
-    <li style="font-size: 18px; margin: 10px 0;">3. Получи готовую картину</li>
+    <li style="font-size: 18px; margin: 10px 0;">1. Выберите наряд</li>
+    <li style="font-size: 18px; margin: 10px 0;">2. Загрузите фотографию</li>
+    <li style="font-size: 18px; margin: 10px 0;">3. Оформите заказ</li>
   </ul>
   <img src="images/STEPS_NEW_992x.webp" alt="Как заказать" style="max-width: 300px; width: 100%; border-radius: 10px; margin-top: 20px;" />
+  <p style="font-size: 16px; color: #838383; margin-top: 20px;">
+    Получите предварительный макет в течение 24–48 часов для утверждения,<br>
+    затем мы отправим ваш портрет!
+  </p>
+</div>
+    <section id="gallery-4" class="gallery section">
+      
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Адаптивный баннер</title>
+  <style>
+
+    #popupBanner {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.85);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner-content {
+      position: relative;
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
+    }
+
+    .banner-content img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+    }
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+
+    .btn-get-started1 {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #27a776;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 10000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .banner-content > div {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .btn-get-started1 {
+        font-size: 15px;
+        padding: 10px 20px;
+        width: 90%;
+        max-width: 300px;
+      }
+
+      .closeBtn {
+        font-size: 24px;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Баннер -->
+<div id="popupBanner">
+  <div class="banner-content">
+    <button class="closeBtn" onclick="document.getElementById('popupBanner').style.display='none'">×</button>
+    <img src="images/banner.jpg" alt="Баннер">
+
+<div style="text-align: center;">
+  <button class="btn-get-started1" id="openFormButton"
+    onclick="document.getElementById('formOverlay').style.display='flex'; document.getElementById('popupBanner').style.display='none'; return false;">
+    Заполнить форму
+  </button>
 </div>
 
+  </div>
+</div>
 
-    <section id="gallery-4" class="gallery section">
+<!-- Пример формы -->
+<div id="formOverlay" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); z-index:10000; justify-content:center; align-items:center; color:white;">
+  <div style="background:#222; padding:30px; border-radius:12px; max-width:90vw;">
+    <h2>Форма заказа</h2>
+    <!-- Ваша форма -->
+    <button onclick="document.getElementById('formOverlay').style.display='none'">Закрыть</button>
+  </div>
+</div>
+
+<script>
+  let bannerShown = false;
+
+  function showBannerIfScrolledEnough() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollPercent = (scrollTop + windowHeight) / documentHeight;
+
+    if (scrollPercent >= 0.7 && !bannerShown) {
+      document.getElementById('popupBanner').style.display = 'flex';
+      bannerShown = true;
+    }
+  }
+
+  window.addEventListener('load', () => {
+    bannerShown = false;
+    window.addEventListener('scroll', showBannerIfScrolledEnough);
+  });
+</script>
+
+</body>
+</html>
+
+
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 

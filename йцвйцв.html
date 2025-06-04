@@ -1,260 +1,131 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Татуировка: Форма заказа</title>
+  <meta charset="UTF-8">
+  <title>Адаптивный баннер</title>
   <style>
     body {
+      margin: 0;
+      padding: 0;
+      height: 3000px;
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-      background-color: #121212;
-      color: #fff;
     }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .button {
-      display: inline-block;
-      padding: 15px 30px;
-      font-size: 18px;
-      background-color: #9d62cf;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      cursor: pointer;
-      text-align: center;
-      margin: 20px auto;
-      display: block;
-      width: 200px;
-    }
-
-    .button:hover {
-      background-color: #7c4bad;
-    }
-
-    .overlay {
+    #popupBanner {
       display: none;
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(5px);
-      z-index: 1000;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.85); /* затемнение фона */
+      z-index: 9999;
       justify-content: center;
       align-items: center;
     }
 
-    .form-container {
-      background-color: #000;
-      padding: 20px;
-      border: 2px solid #9d62cf;
-      border-radius: 10px;
-      width: 90%;
-      max-width: 500px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    .banner-content {
+      position: relative;
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
     }
 
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    input, select, textarea {
+    .banner-content img {
       width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 2px solid #9d62cf;
-      border-radius: 5px;
-      background: #0f0f0f;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+    }
+
+    .closeBtn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 28px;
       color: #fff;
-      box-sizing: border-box;
-    }
-
-    .image-gallery {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-
-    .image-gallery img {
-      border-radius: 10px;
+      background: rgba(0,0,0,0.4);
+      border: none;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      line-height: 30px;
+      text-align: center;
       cursor: pointer;
-      border: 2px solid transparent;
+      z-index: 10000;
     }
 
-    .image-gallery img.selected {
-      border: 2px solid #9d62cf;
+    .btn-get-started {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #27a776;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 10000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     }
 
-    #selectedImagePreview img {
-      max-width: 100px;
-      max-height: 100px;
-      margin-left: 10px;
-      border-radius: 5px;
-      border: 2px solid #9d62cf;
+    @media (max-width: 600px) {
+      .btn-get-started {
+        font-size: 15px;
+        padding: 10px 20px;
+      }
+
+      .closeBtn {
+        font-size: 24px;
+        width: 32px;
+        height: 32px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Оформить заказ</h1>
-  <div style="text-align: center;">
-    <button class="button" id="openFormButton">Заполнить форму</button>
+
+<!-- Баннер -->
+<div id="popupBanner">
+  <div class="banner-content">
+    <button class="closeBtn" onclick="document.getElementById('popupBanner').style.display='none'">×</button>
+    <img src="images/banner.jpg" alt="Баннер">
+    <a href="#" class="btn-get-started" onclick="document.getElementById('formOverlay').style.display='flex'; return false;">Заказать</a>
   </div>
+</div>
 
-  <div class="overlay" id="formOverlay">
-    <div class="form-container" id="formStep1">
-      <h2>Заполните форму</h2>
-      <form id="tattooForm" enctype="multipart/form-data">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="phone">Ваш номер телефона:</label>
-        <input type="tel" id="phone" name="phone" required />
-
-        <label for="contactMethod">Способ связи:</label>
-        <select id="contactMethod" name="contactMethod" required>
-          <option value="whatsapp">WhatsApp</option>
-          <option value="telegram">Telegram</option>
-        </select>
-
-        <label for="size">Размер эскиза:</label>
-        <select id="size" name="size" required>
-          <option value="small">Маленький (до 10x10 см)</option>
-          <option value="medium">Средний (до 20x20 см)</option>
-          <option value="large">Большой (до 40x40 см)</option>
-          <option value="sleeve_full">Рукав (полный)</option>
-          <option value="sleeve_half">Рукав (половина)</option>
-          <option value="back_full">Спина (полная)</option>
-          <option value="back_part">Спина (часть)</option>
-          <option value="mini">Минимальный (до 5x5 см)</option>
-        </select>
-
-        <label for="gender">Пол собаки:</label>
-        <select id="gender" name="gender" required>
-          <option value="">Выберите пол</option>
-          <option value="female">Девочка</option>
-          <option value="male">Мальчик</option>
-        </select>
-
-        <div id="chooseStyleBtnWrapper"></div>
-
-        <div id="selectedImagePreview"></div>
-
-        <label for="photos">Прикрепить фотографии:</label>
-        <input type="file" id="photos" name="photos" accept="image/*" multiple />
-
-        <button class="button" type="submit">Отправить</button>
-      </form>
-    </div>
-    <div class="form-container" id="formStep2" style="display: none; text-align: center;">
-      <h2>Спасибо за обращение!</h2>
-      <p>Наш мессенджер свяжется с вами в течение 15 минут.</p>
-    </div>
+<!-- Пример формы -->
+<div id="formOverlay" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); z-index:10000; justify-content:center; align-items:center; color:white;">
+  <div style="background:#222; padding:30px; border-radius:12px; max-width:90vw;">
+    <h2>Форма заказа</h2>
+    <!-- Ваша форма -->
+    <button onclick="document.getElementById('formOverlay').style.display='none'">Закрыть</button>
   </div>
+</div>
 
-  <div class="overlay" id="styleGallery" style="display: none;">
-    <div class="form-container">
-      <h2>Выберите образ</h2>
-      <div class="image-gallery" id="imageGallery"></div>
-    </div>
-  </div>
+<script>
+  let bannerShown = false;
 
-  <script>
-    const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
-    const telegramChatId = "5929919501";
-    const formOverlay = document.getElementById('formOverlay');
-    const openFormButton = document.getElementById('openFormButton');
-    const tattooForm = document.getElementById('tattooForm');
-    const formStep1 = document.getElementById('formStep1');
-    const formStep2 = document.getElementById('formStep2');
-    const genderSelect = document.getElementById('gender');
-    const chooseBtnWrapper = document.getElementById('chooseStyleBtnWrapper');
-    const galleryOverlay = document.getElementById('styleGallery');
-    const imageGallery = document.getElementById('imageGallery');
-    const selectedImagePreview = document.getElementById('selectedImagePreview');
+  function showBannerIfScrolledEnough() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollPercent = (scrollTop + windowHeight) / documentHeight;
 
-    let selectedImageSrc = "";
-    let selectedImageName = "";
+    if (scrollPercent >= 0.7 && !bannerShown) {
+      document.getElementById('popupBanner').style.display = 'flex';
+      bannerShown = true;
+    }
+  }
 
-    openFormButton.onclick = () => formOverlay.style.display = 'flex';
+  window.addEventListener('load', () => {
+    bannerShown = false;
+    window.addEventListener('scroll', showBannerIfScrolledEnough);
+  });
+</script>
 
-    formOverlay.onclick = (e) => { if (e.target === formOverlay) formOverlay.style.display = 'none'; };
-    galleryOverlay.onclick = (e) => { if (e.target === galleryOverlay) galleryOverlay.style.display = 'none'; };
-
-    genderSelect.addEventListener('change', () => {
-      const gender = genderSelect.value;
-      if (!gender) return chooseBtnWrapper.innerHTML = '';
-
-      chooseBtnWrapper.innerHTML = `<button type="button" class="button" id="chooseStyle">Выбрать образ</button>`;
-      document.getElementById('chooseStyle').onclick = () => {
-        imageGallery.innerHTML = '';
-        for (let i = 1; i <= 10; i++) {
-          const img = document.createElement('img');
-          img.src = `images/${gender}_${i}.jpg`;
-          img.onclick = () => {
-            selectedImageSrc = img.src;
-            selectedImageName = img.src.split('/').pop();
-            selectedImagePreview.innerHTML = `
-              <p>Выбранный образ:</p>
-              <img src="${img.src}" />
-            `;
-            galleryOverlay.style.display = 'none';
-          };
-          imageGallery.appendChild(img);
-        }
-        galleryOverlay.style.display = 'flex';
-      };
-    });
-
-    tattooForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
-
-      if (!selectedImageName) {
-        alert("Пожалуйста, выберите образ перед отправкой формы.");
-        return;
-      }
-
-      const formData = new FormData(tattooForm);
-
-      const message = `Новый заказ:\n` +
-        `Имя: ${formData.get('name')}\n` +
-        `Телефон: ${formData.get('phone')}\n` +
-        `Связь: ${formData.get('contactMethod')}\n` +
-        `Размер: ${formData.get('size')}\n` +
-        `Пол собаки: ${formData.get('gender')}\n` +
-        `Выбранный образ: ${selectedImageName}\n`;
-
-      try {
-        await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ chat_id: telegramChatId, text: message })
-        });
-
-        const files = formData.getAll('photos');
-        for (const file of files) {
-          const photoData = new FormData();
-          photoData.append('chat_id', telegramChatId);
-          photoData.append('photo', file);
-          await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
-            method: 'POST',
-            body: photoData
-          });
-        }
-
-        formStep1.style.display = 'none';
-        formStep2.style.display = 'block';
-      } catch (error) {
-        alert('Ошибка отправки формы. Попробуйте позже.');
-      }
-    });
-  </script>
 </body>
 </html>
