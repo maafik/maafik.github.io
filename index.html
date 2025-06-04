@@ -518,7 +518,14 @@
     const scrollPercent = (scrollTop + windowHeight) / documentHeight;
 
     if (scrollPercent >= 0.7 && !bannerShown) {
-      document.getElementById('popupBanner').style.display = 'flex';
+      const popupBanner = document.getElementById('popupBanner');
+      popupBanner.style.display = 'flex';
+      
+      // ✅ Добавляем шаг в историю, чтобы закрывался при "назад"
+      if (!history.state || !history.state.formOpen) {
+        history.pushState({ formOpen: true }, '', '#form');
+      }
+
       bannerShown = true;
     }
   }
@@ -528,6 +535,7 @@
     window.addEventListener('scroll', showBannerIfScrolledEnough);
   });
 </script>
+
 
 </body>
 </html>
