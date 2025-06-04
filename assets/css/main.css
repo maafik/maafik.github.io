@@ -474,6 +474,21 @@ body {
   transition: background 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  .btn-order {
+    padding: 9px 18px;
+    font-size: 15px;
+  }
+}
+
+/* Мобильные устройства: до 480px */
+@media (max-width: 480px) {
+  .btn-order {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
 .btn-order:hover {
   background-color: #666;
 }
