@@ -499,14 +499,6 @@
   </div>
 </div>
 
-<!-- Пример формы -->
-<div id="formOverlay" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); z-index:10000; justify-content:center; align-items:center; color:white;">
-  <div style="background:#222; padding:30px; border-radius:12px; max-width:90vw;">
-    <h2>Форма заказа</h2>
-    <!-- Ваша форма -->
-    <button onclick="document.getElementById('formOverlay').style.display='none'">Закрыть</button>
-  </div>
-</div>
 
 <script>
   let bannerShown = false;
@@ -518,17 +510,25 @@
     const scrollPercent = (scrollTop + windowHeight) / documentHeight;
 
     if (scrollPercent >= 0.7 && !bannerShown) {
-      const popupBanner = document.getElementById('popupBanner');
-      popupBanner.style.display = 'flex';
-      
-      // ✅ Добавляем шаг в историю, чтобы закрывался при "назад"
-      if (!history.state || !history.state.formOpen) {
-        history.pushState({ formOpen: true }, '', '#form');
+      const banner = document.getElementById('popupBanner');
+      banner.style.display = 'flex';
+
+      // ✅ Добавляем шаг в историю
+      if (!history.state || !history.state.bannerOpen) {
+        history.pushState({ bannerOpen: true }, '', '#banner');
       }
 
       bannerShown = true;
     }
   }
+
+  // Обработка кнопки "назад"
+  window.addEventListener('popstate', (event) => {
+    const banner = document.getElementById('popupBanner');
+    if (!event.state?.bannerOpen && banner.style.display === 'flex') {
+      banner.style.display = 'none';
+    }
+  });
 
   window.addEventListener('load', () => {
     bannerShown = false;
