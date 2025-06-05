@@ -2,73 +2,196 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <title>Баннер с историей</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Баннер и форма</title>
   <style>
-    body {
-      font-family: sans-serif;
+        body {
       margin: 0;
       padding: 0;
-      height: 3000px; /* чтобы была прокрутка */
+      height: 3000px;
+      font-family: sans-serif;
     }
-
+    /* Баннер */
     #popupBanner {
       display: none;
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.85);
-      z-index: 9999;
-      justify-content: center;
+      bottom: 20px;
+      right: 20px;
+      background: #fff;
+      border: 2px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      z-index: 1000;
+      width: 300px;
+      flex-direction: column;
       align-items: center;
-      color: #fff;
-      font-size: 24px;
-      text-align: center;
-      padding: 20px;
+      padding: 10px;
+      box-sizing: border-box;
     }
-
-    .closeBtn {
+    #popupBanner.flex {
+      display: flex;
+    }
+    #popupBanner .banner-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    #popupBanner img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    #popupBanner .closeBtn {
       position: absolute;
-      top: 10px;
-      right: 10px;
-      font-size: 32px;
-      color: #fff;
+      top: 5px;
+      right: 8px;
       background: transparent;
       border: none;
+      font-size: 22px;
       cursor: pointer;
+    }
+    #popupBanner .btn-get-started1 {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #popupBanner .btn-get-started1:hover {
+      background-color: #0056b3;
+    }
+
+    /* Оверлей формы */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 2000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .overlay.flex {
+      display: flex;
+    }
+    .form-container {
+      background: white;
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+    .form-container h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    form input[type="text"],
+    form input[type="tel"],
+    form select,
+    form input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    form button.button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    form button.button:hover {
+      background-color: #218838;
     }
   </style>
 </head>
 <body>
 
-<div id="popupBanner">
-  <button class="closeBtn" onclick="closeBanner()">×</button>
-  <div>Привет! Это баннер.</div>
-</div>
+  <!-- Баннер -->
+  <div id="popupBanner" class="overlay" style="align-items: flex-end; justify-content: flex-end;">
+    <div class="banner-content">
+      <button class="closeBtn" onclick="closeBanner()">×</button>
+      <img src="images/banner.jpg" alt="Баннер" />
+      <div>
+        <button class="btn-get-started1" id="openFormButton">Заполнить форму</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Форма -->
+  <div class="overlay" id="formOverlay">
+    <div class="form-container" id="formStep1">
+      <form id="tattooForm" enctype="multipart/form-data">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Ваш номер телефона:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="contactMethod">Способ связи:</label>
+        <select id="contactMethod" name="contactMethod" required>
+          <option value="whatsapp">WhatsApp</option>
+          <option value="telegram">Telegram</option>
+        </select>
+
+        <label for="size">Размер эскиза:</label>
+        <select id="size" name="size" required>
+          <option value="small">Маленький (до 10x10 см)</option>
+          <option value="medium">Средний (до 20x20 см)</option>
+          <option value="large">Большой (до 40x40 см)</option>
+          <option value="sleeve_full">Рукав (полный)</option>
+          <option value="sleeve_half">Рукав (половина)</option>
+          <option value="back_full">Спина (полная)</option>
+          <option value="back_part">Спина (часть)</option>
+          <option value="mini">Минимальный (до 5x5 см)</option>
+        </select>
+
+        <label for="gender">Пол собаки:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Выберите пол</option>
+          <option value="female">Девочка</option>
+          <option value="male">Мальчик</option>
+        </select>
+
+        <div id="chooseStyleBtnWrapper"></div>
+
+        <div id="selectedImagePreview"></div>
+
+        <label for="photos">Прикрепить фотографии:</label>
+        <input type="file" id="photos" name="photos" accept="image/*" multiple />
+
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </div>
+    <div class="form-container" id="formStep2" style="display: none; text-align: center;">
+      <h2>Спасибо за обращение!</h2>
+      <p>Наш мессенджер свяжется с вами в течение 15 минут.</p>
+    </div>
+  </div>
 
 <script>
   let bannerShown = false;
 
-  function showBanner() {
-    const banner = document.getElementById('popupBanner');
-    banner.style.display = 'flex';
-    bannerShown = true;
-    history.pushState({ banner: true }, '', '#banner'); // создаём шаг в истории
-  }
-
-  function closeBanner() {
-    const banner = document.getElementById('popupBanner');
-    banner.style.display = 'none';
-    bannerShown = false;
-
-    // Возвращаемся назад в истории, если баннер открыт
-    if (location.hash === '#banner') {
-      history.back();
-    }
-  }
-
-  // Показываем баннер при прокрутке на 70%
   function showBannerIfScrolledEnough() {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     const windowHeight = window.innerHeight;
@@ -76,27 +199,54 @@
     const scrollPercent = (scrollTop + windowHeight) / documentHeight;
 
     if (scrollPercent >= 0.7 && !bannerShown) {
-      showBanner();
+      const banner = document.getElementById('popupBanner');
+      banner.style.display = 'flex';
+      bannerShown = true;
+
+      history.pushState({ bannerOpen: true }, '', '#banner');
     }
   }
 
-  // Обработка нажатия назад/вперёд
-  window.onpopstate = function () {
+  function closeBanner() {
     const banner = document.getElementById('popupBanner');
-    if (location.hash === '#banner') {
-      banner.style.display = 'flex';
-    } else {
+    if (banner.style.display === 'flex') {
+      banner.style.display = 'none';
+
+      if (history.state?.bannerOpen) {
+        history.back();
+      }
+    }
+  }
+
+  window.addEventListener('popstate', () => {
+    const banner = document.getElementById('popupBanner');
+    if (banner.style.display === 'flex') {
       banner.style.display = 'none';
     }
-  };
+  });
 
   window.addEventListener('load', () => {
+    bannerShown = false;
     window.addEventListener('scroll', showBannerIfScrolledEnough);
+  });
 
-    // Показываем баннер, если пользователь попал сразу по хэшу
-    if (location.hash === '#banner') {
-      showBanner();
+  document.addEventListener('DOMContentLoaded', () => {
+    const openFormButton = document.getElementById('openFormButton');
+    const formOverlay = document.getElementById('formOverlay');
+
+    if (openFormButton && formOverlay) {
+      openFormButton.addEventListener('click', () => {
+        formOverlay.style.display = 'flex';
+        closeBanner();
+      });
     }
+
+    // Закрытие формы по клику вне контейнера
+    formOverlay.addEventListener('click', (e) => {
+      if (e.target === formOverlay) {
+        formOverlay.style.display = 'none';
+      }
+    });
   });
 </script>
 

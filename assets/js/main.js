@@ -135,39 +135,95 @@
 
 })();
 
-  function openForm() {
-    document.getElementById('fullscreenForm').style.display = 'block';
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
+  const telegramChatId = "5929919501";
+  const formOverlay = document.getElementById('formOverlay');
+  const openFormButton = document.getElementById('openFormButton');
+  const tattooForm = document.getElementById('tattooForm');
+  const formStep1 = document.getElementById('formStep1');
+  const formStep2 = document.getElementById('formStep2');
+  const genderSelect = document.getElementById('gender');
+  const chooseBtnWrapper = document.getElementById('chooseStyleBtnWrapper');
+  const galleryOverlay = document.getElementById('styleGallery');
+  const imageGallery = document.getElementById('imageGallery');
+  const selectedImagePreview = document.getElementById('selectedImagePreview');
+
+  let selectedImageSrc = "";
+
+  if (openFormButton) {
+    openFormButton.onclick = () => formOverlay.style.display = 'flex';
   }
 
-// Открытие формы с pushState
-openFormButton.onclick = () => {
-  formOverlay.style.display = 'flex';
-  // Добавляем новый шаг истории, если еще не открыт
-  if (!history.state || !history.state.formOpen) {
-    history.pushState({ formOpen: true }, '', '#form');
-  }
-};
+  formOverlay.onclick = (e) => {
+    if (e.target === formOverlay) formOverlay.style.display = 'none';
+  };
 
-// Закрытие по клику вне формы
-formOverlay.onclick = (e) => {
-  if (e.target === formOverlay) {
-    formOverlay.style.display = 'none';
-    if (history.state?.formOpen) {
-      history.back(); // откат назад
+  if (galleryOverlay) {
+    galleryOverlay.onclick = (e) => {
+      if (e.target === galleryOverlay) galleryOverlay.style.display = 'none';
+    };
+  }
+
+  genderSelect.addEventListener('change', () => {
+    const gender = genderSelect.value;
+    if (!gender) return chooseBtnWrapper.innerHTML = '';
+
+    chooseBtnWrapper.innerHTML = `<button type="button" class="button" id="chooseStyle">Выбрать образ</button>`;
+    document.getElementById('chooseStyle').onclick = () => {
+      imageGallery.innerHTML = '';
+      for (let i = 1; i <= 24; i++) {
+        const img = document.createElement('img');
+        img.src = `images/${gender}_${i}.jpg`;
+        img.onclick = () => {
+          selectedImageSrc = img.src;
+          selectedImagePreview.innerHTML = `<p>Выбранный образ:</p><img src="${img.src}" style="max-width: 100%; border-radius: 10px;" />`;
+          galleryOverlay.style.display = 'none';
+        };
+        imageGallery.appendChild(img);
+      }
+      galleryOverlay.style.display = 'flex';
+    };
+  });
+
+  tattooForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(tattooForm);
+
+    const message = `Новый заказ:\n` +
+      `Имя: ${formData.get('name')}\n` +
+      `Телефон: ${formData.get('phone')}\n` +
+      `Связь: ${formData.get('contactMethod')}\n` +
+      `Размер: ${formData.get('size')}\n` +
+      `Пол собаки: ${formData.get('gender')}\n` +
+      (selectedImageSrc ? `Выбранный образ: ${selectedImageSrc.split('/').pop()}\n` : '');
+
+    try {
+      await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: telegramChatId, text: message })
+      });
+
+      const files = formData.getAll('photos');
+      for (const file of files) {
+        const photoData = new FormData();
+        photoData.append('chat_id', telegramChatId);
+        photoData.append('photo', file);
+        await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
+          method: 'POST',
+          body: photoData
+        });
+      }
+
+      formStep1.style.display = 'none';
+      formStep2.style.display = 'block';
+    } catch (error) {
+      alert('Ошибка отправки формы. Попробуйте позже.');
     }
-  }
-};
-
-// Обработка кнопки "назад"
-window.addEventListener('popstate', (event) => {
-  if (event.state?.formOpen) {
-    // Если state говорит, что форма была открыта, мы её закрываем
-    formOverlay.style.display = 'none';
-  } else {
-    // Если вернулись в состояние ДО открытия формы — тоже закрываем на всякий
-    if (formOverlay.style.display === 'flex') {
-      formOverlay.style.display = 'none';
-    }
-  }
+  });
 });
-
