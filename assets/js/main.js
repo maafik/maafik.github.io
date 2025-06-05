@@ -155,16 +155,39 @@ document.addEventListener('DOMContentLoaded', () => {
   let selectedImageSrc = "";
 
   if (openFormButton) {
-    openFormButton.onclick = () => formOverlay.style.display = 'flex';
+    openFormButton.onclick = () => {
+      formOverlay.style.display = 'flex';
+
+      // Добавляем хеш в URL и сохраняем состояние
+      if (!history.state || !history.state.formOpen) {
+        history.pushState({ formOpen: true }, '', '#form');
+      }
+    };
   }
 
   formOverlay.onclick = (e) => {
-    if (e.target === formOverlay) formOverlay.style.display = 'none';
+    if (e.target === formOverlay) {
+      formOverlay.style.display = 'none';
+
+      // Удаляем хеш при закрытии формы
+      if (history.state?.formOpen) {
+        history.back();
+      }
+    }
   };
+
+  window.addEventListener('popstate', (event) => {
+    // Если хеш был удалён или пользователь нажал "назад"
+    if (formOverlay.style.display === 'flex') {
+      formOverlay.style.display = 'none';
+    }
+  });
 
   if (galleryOverlay) {
     galleryOverlay.onclick = (e) => {
-      if (e.target === galleryOverlay) galleryOverlay.style.display = 'none';
+      if (e.target === galleryOverlay) {
+        galleryOverlay.style.display = 'none';
+      }
     };
   }
 
@@ -188,6 +211,19 @@ document.addEventListener('DOMContentLoaded', () => {
       galleryOverlay.style.display = 'flex';
     };
   });
+
+  const allOpenFormButtons = document.querySelectorAll('.openFormButton, .btn-order');
+
+allOpenFormButtons.forEach(button => {
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    formOverlay.style.display = 'flex';
+    if (!history.state || !history.state.formOpen) {
+      history.pushState({ formOpen: true }, '', '#form');
+    }
+  });
+});
+
 
   tattooForm.addEventListener('submit', async (e) => {
     e.preventDefault();
