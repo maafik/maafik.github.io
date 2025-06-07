@@ -255,6 +255,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
 
+        ym(102483778, 'reachGoal', 'form_success');
+
       formStep1.style.display = 'none';
       formStep2.style.display = 'block';
     } catch (error) {
