@@ -90,52 +90,43 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
       background-color: #121212;
       color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
     }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #9d62cf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-    .button {
-      display: inline-block;
-      padding: 15px 30px;
-      font-size: 18px;
-      background-color: #9d62cf;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      cursor: pointer;
-      text-align: center;
-      margin: 20px auto;
-      display: block;
-      width: 200px;
-    }
 
     .button:hover {
       background-color: #7c4bad;
     }
 
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(5px);
-  z-index: 1000;
-
-  justify-content: center;
-  align-items: flex-start; /* Вверх, чтобы форма начиналась сверху */
-
-  overflow-y: auto; /* ✅ добавляет вертикальный скролл при переполнении */
-  padding: 40px 0; /* немного отступа сверху/снизу */
-}
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: flex-start;
+      overflow-y: auto;
+      padding: 40px 0;
+    }
 
     .form-container {
       background-color: #000;
@@ -144,15 +135,11 @@
       border-radius: 10px;
       width: 90%;
       max-width: 500px;
+      margin: auto;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     }
 
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    input, select, textarea {
+    input, select {
       width: 100%;
       padding: 10px;
       margin-bottom: 15px;
@@ -162,40 +149,65 @@
       color: #fff;
       box-sizing: border-box;
     }
-    
 
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  max-width: 100%;
-  box-sizing: border-box;
-  padding: 0 10px;
-}
-
-.image-gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 2px solid transparent;
-  box-sizing: border-box;
-}
-
-
-    .image-gallery img.selected {
-      border: 2px solid #9d62cf;
+    .product-options {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
     }
+
+    .product-option {
+      cursor: pointer;
+      border: 3px solid transparent;
+      border-radius: 10px;
+      transition: border 0.3s;
+      max-width: 180px;
+    }
+
+    .product-option:hover {
+      border: 3px solid #9d62cf;
+    }
+
+    textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #9d62cf;
+  border-radius: 5px;
+  background: #0f0f0f;
+  color: #fff;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
   </style>
 <body>
-  <div style="text-align: center;">
-    <button class="btn-get-started" id="openFormButton">Заполнить форму</button>
+
+  <!-- Стартовая кнопка -->
+  <button class="button" id="startOrderBtn">Сделать заказ</button>
+
+  <!-- Первый шаг: выбор товара -->
+  <div class="overlay" id="productOverlay">
+    <div class="form-container">
+      <h2>Выберите товар</h2>
+<div class="product-options">
+  <img src="images/female_1.jpg" alt="Футболка" class="product-option" data-product="Футболка" />
+  <img src="images/female_2.jpg" alt="Чашка" class="product-option" data-product="Чашка" />
+  <img src="images/female_3.jpg" alt="Футболка" class="product-option" data-product="Футболка" />
+  <img src="images/female_4.jpg" alt="Чашка" class="product-option" data-product="Чашка" />
+</div>
+
+    </div>
   </div>
 
+  <!-- Второй шаг: форма -->
   <div class="overlay" id="formOverlay">
     <div class="form-container" id="formStep1">
+      <form id="orderForm" enctype="multipart/form-data">
+        <input type="hidden" name="product" id="selectedProduct" />
 
-      <form id="tattooForm" enctype="multipart/form-data">
         <label for="name">Ваше имя:</label>
         <input type="text" id="name" name="name" required />
 
@@ -208,45 +220,107 @@
           <option value="telegram">Telegram</option>
         </select>
 
-        <label for="size">Размер эскиза:</label>
+        <label for="size">Размер принта:</label>
         <select id="size" name="size" required>
-<option value="a5">Небольшой (A5 — 15×21 см) — 2 900 ₽</option>
-<option value="a4">Стандартный (A4 — 21×30 см) — 4 200 ₽</option>
-<option value="a3">Крупный (A3 — 30×42 см) — 5 800 ₽ — Хит продаж</option>
-<option value="a2">Очень крупный (A2 — 42×59 см) — 7 500 ₽</option>
+          <option value="a5">Небольшой (A5 — 15×21 см)</option>
+          <option value="a4">Стандартный (A4 — 21×30 см)</option>
+          <option value="a3">Крупный (A3 — 30×42 см)</option>
+          <option value="a2">Очень крупный (A2 — 42×59 см)</option>
         </select>
 
-        <label for="gender">Пол собаки:</label>
-        <select id="gender" name="gender" required>
-          <option value="">Выберите пол</option>
-          <option value="female">Девочка</option>
-          <option value="male">Мальчик</option>
-        </select>
-
-        <div id="chooseStyleBtnWrapper"></div>
-
-        <div id="selectedImagePreview"></div>
-
-<label for="photos">Загрузите фото собаки для портрета:</label>
+        <label for="photos">Загрузите изображение:</label>
         <input type="file" id="photos" name="photos" required accept="image/*" multiple />
+
+        <label for="description">Описание принта / идея (если нет изображения):</label>
+<textarea id="description" name="description" rows="4" placeholder="Опишите, какой дизайн вы хотите. Мы можем разработать его для вас."></textarea>
+
 
         <button class="button" type="submit">Отправить</button>
       </form>
     </div>
+
     <div class="form-container" id="formStep2" style="display: none; text-align: center;">
-      <h2>Спасибо за обращение!</h2>
-      <p>Наш мессенджер свяжется с вами в течение 15 минут.</p>
+      <h2>Спасибо за заказ!</h2>
+      <p>Мы свяжемся с вами в ближайшее время.</p>
     </div>
   </div>
 
-  <!-- Галерея выбора образа -->
-  <div class="overlay" id="styleGallery" style="display: none;">
-    <div class="form-container">
-      <h2>Выберите образ</h2>
-      <div class="image-gallery" id="imageGallery"></div>
-    </div>
-  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
+      const telegramChatId = "5929919501";
 
+      const startBtn = document.getElementById('startOrderBtn');
+      const productOverlay = document.getElementById('productOverlay');
+      const formOverlay = document.getElementById('formOverlay');
+      const productOptions = document.querySelectorAll('.product-option');
+      const selectedProductInput = document.getElementById('selectedProduct');
+      const formStep1 = document.getElementById('formStep1');
+      const formStep2 = document.getElementById('formStep2');
+      const orderForm = document.getElementById('orderForm');
+
+      startBtn.addEventListener('click', () => {
+        productOverlay.style.display = 'flex';
+      });
+
+      productOptions.forEach(option => {
+        option.addEventListener('click', () => {
+          const selectedProduct = option.dataset.product;
+          selectedProductInput.value = selectedProduct;
+          productOverlay.style.display = 'none';
+          formOverlay.style.display = 'flex';
+        });
+      });
+
+      productOverlay.onclick = (e) => {
+        if (e.target === productOverlay) {
+          productOverlay.style.display = 'none';
+        }
+      };
+
+      formOverlay.onclick = (e) => {
+        if (e.target === formOverlay) {
+          formOverlay.style.display = 'none';
+        }
+      };
+
+      orderForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const formData = new FormData(orderForm);
+const message = `Новый заказ:\n` +
+  `Товар: ${formData.get('product')}\n` +
+  `Имя: ${formData.get('name')}\n` +
+  `Телефон: ${formData.get('phone')}\n` +
+  `Связь: ${formData.get('contactMethod')}\n` +
+  `Размер: ${formData.get('size')}\n` +
+  `Описание принта: ${formData.get('description') || 'Не указано'}`;
+
+        try {
+          await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ chat_id: telegramChatId, text: message })
+          });
+
+          const files = formData.getAll('photos');
+          for (const file of files) {
+            const photoData = new FormData();
+            photoData.append('chat_id', telegramChatId);
+            photoData.append('photo', file);
+            await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
+              method: 'POST',
+              body: photoData
+            });
+          }
+
+          formStep1.style.display = 'none';
+          formStep2.style.display = 'block';
+        } catch (error) {
+          alert('Ошибка отправки формы. Попробуйте позже.');
+        }
+      });
+    });
+  </script>
 </body>
    
           </div>
@@ -255,28 +329,26 @@
 
     </section><!-- /Hero Section -->
         <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
-      <video autoplay muted loop playsinline
-        style="
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          height: 100%;
-          transform: translate(-50%, -50%);
-          object-fit: contain;
-          pointer-events: none;
-          user-select: none;
-        "
-        id="background-video"
-        oncontextmenu="return false;"
-        onselectstart="return false;"
-        ondragstart="return false;"
-      >
-        <source src="assets/vid/123.mp4" type="video/mp4">
-      </video>
-            <script>
-      const video = document.getElementById("background-video");
-      video.playbackRate = 0.5; // Уменьшаем скорость видео в 2 раза
-    </script>
+<section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
+  <iframe
+    src="https://iframe.videodelivery.net/8075d37d08964940aa2175eede6e2ad3?autoplay=1&muted=1&loop=1"
+    allow="autoplay; fullscreen"
+    allowfullscreen
+    style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      border: none;
+      pointer-events: none;
+      user-select: none;
+    "
+  ></iframe>
+</section>
+
     </section>
     <!-- Gallery Section -->
 
