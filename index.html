@@ -254,14 +254,23 @@
       </div>
 
     </section><!-- /Hero Section -->
-        <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
 <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
-<div style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
-</div>
-
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    "
+  >
+    <source src="assets/vid/123123.mp4" type="video/mp4" />
+    Ваш браузер не поддерживает видео.
+  </video>
 </section>
-
-    </section>
     <!-- Gallery Section -->
 
 <div class="how-to-order" style="text-align: center; padding: 40px 20px;">
@@ -278,6 +287,91 @@
   </p>
 </div>
     <section id="gallery-4" class="gallery section">
+
+<body>
+
+<!-- Баннер -->
+<div id="popupBanner">
+  <div class="banner-content">
+    <button class="closeBtn" onclick="closeBanner()">×</button>
+    <img src="images/banner.jpg" alt="Баннер">
+    <div>
+      <button class="openFormButton">Заполнить форму</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  let bannerShown = false;
+  const formOverlay = document.getElementById('formOverlay');
+  const openFormButtons = document.querySelectorAll('.openFormButton');
+
+  openFormButtons.forEach(button => {
+    button.onclick = () => {
+      // Показываем форму
+      formOverlay.style.display = 'flex';
+
+      // Закрываем баннер
+      closeBanner(false);
+
+      // Добавляем шаг истории
+      if (!history.state || !history.state.formOpen) {
+        history.pushState({ formOpen: true }, '', '#form');
+      }
+    };
+  });
+
+  function closeBanner(useHistoryBack = true) {
+    const banner = document.getElementById('popupBanner');
+    if (banner.style.display === 'flex') {
+      banner.style.display = 'none';
+      if (useHistoryBack && history.state?.bannerOpen) {
+        history.back();
+      }
+    }
+  }
+
+  function closeForm() {
+    formOverlay.style.display = 'none';
+    if (history.state?.formOpen) {
+      history.back();
+    }
+  }
+
+  function showBannerIfScrolledEnough() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollPercent = (scrollTop + windowHeight) / documentHeight;
+
+    if (scrollPercent >= 0.7 && !bannerShown) {
+      const banner = document.getElementById('popupBanner');
+      banner.style.display = 'flex';
+      bannerShown = true;
+      history.pushState({ bannerOpen: true }, '', '#banner');
+    }
+  }
+
+  window.addEventListener('popstate', (event) => {
+    const banner = document.getElementById('popupBanner');
+    const form = document.getElementById('formOverlay');
+
+    if (form.style.display === 'flex') {
+      form.style.display = 'none';
+    }
+
+    if (banner.style.display === 'flex') {
+      banner.style.display = 'none';
+    }
+  });
+
+  window.addEventListener('load', () => {
+    bannerShown = false;
+    window.addEventListener('scroll', showBannerIfScrolledEnough);
+  });
+</script>
+
+</body>
 
 
 
