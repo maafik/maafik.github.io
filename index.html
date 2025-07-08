@@ -85,8 +85,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
-<h2><span>Привет! Меня зовут</span><span class="underlight">Ирина,</span><span> я художник и иллюстратор.</span></h2>
-<p>Я создаю уникальные портреты собак по фотографии. Для меня важно не просто передать внешность, а сохранить характер и душу вашего любимца.</p>
+<h2><span>Привет! Меня зовут</span> <span class="underlight">Ирина,</span> <span>я художник и иллюстратор.</span></h2>
+<p>Я создаю уникальные <strong>футболки и кружки по вашим фотографиям</strong>. Для меня важно не просто нанести картинку, а передать <strong>идею, стиль и душу</strong> того, что вам дорого — будь то человек, питомец или особый момент.</p>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -197,6 +197,8 @@
   <img src="images/female_2.jpg" alt="Чашка" class="product-option" data-product="Чашка" />
   <img src="images/female_3.jpg" alt="Футболка" class="product-option" data-product="Футболка" />
   <img src="images/female_4.jpg" alt="Чашка" class="product-option" data-product="Чашка" />
+    <img src="images/female_5.jpg" alt="Чашка" class="product-option" data-product="Чашка" />
+        <img src="images/female_6.jpg" alt="Чашка" class="product-option" data-product="Чашка" />
 </div>
 
     </div>
@@ -231,7 +233,7 @@
         <label for="photos">Загрузите изображение:</label>
         <input type="file" id="photos" name="photos" required accept="image/*" multiple />
 
-        <label for="description">Описание принта / идея (если нет изображения):</label>
+        <label for="description">Описание принта / идея:</label>
 <textarea id="description" name="description" rows="4" placeholder="Опишите, какой дизайн вы хотите. Мы можем разработать его для вас."></textarea>
 
 
@@ -330,16 +332,17 @@ const message = `Новый заказ:\n` +
     </section><!-- /Hero Section -->
         <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
 <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
+<div style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
   <iframe
-    src="https://iframe.videodelivery.net/8075d37d08964940aa2175eede6e2ad3?autoplay=1&muted=1&loop=1"
+    src="https://iframe.videodelivery.net/8075d37d08964940aa2175eede6e2ad3?autoplay=true&muted=true&loop=true&controls=false&preload=auto"
     allow="autoplay; fullscreen"
     allowfullscreen
     style="
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 100%;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       transform: translate(-50%, -50%);
       object-fit: cover;
       border: none;
@@ -347,22 +350,24 @@ const message = `Новый заказ:\n` +
       user-select: none;
     "
   ></iframe>
+</div>
+
 </section>
 
     </section>
     <!-- Gallery Section -->
 
 <div class="how-to-order" style="text-align: center; padding: 40px 20px;">
-  <h2 style="font-size: 28px; margin-bottom: 20px;">Как заказать картину собаки</h2>
+  <h2 style="font-size: 28px; margin-bottom: 20px;">Как заказать футболку или чашку с принтом:</h2>
   <ul style="list-style: none; padding: 0; margin: 0 0 30px 0;">
-    <li style="font-size: 18px; margin: 10px 0;">1. Выберите наряд</li>
-    <li style="font-size: 18px; margin: 10px 0;">2. Загрузите фотографию</li>
+    <li style="font-size: 18px; margin: 10px 0;">1. Выберите изделие — футболку или чашку</li>
+    <li style="font-size: 18px; margin: 10px 0;">2. Загрузите фотографию или дизайн</li>
     <li style="font-size: 18px; margin: 10px 0;">3. Оформите заказ</li>
   </ul>
   <img src="images/STEPS_NEW_992x.webp" alt="Как заказать" style="max-width: 300px; width: 100%; border-radius: 10px; margin-top: 20px;" />
   <p style="font-size: 16px; color: #838383; margin-top: 20px;">
-    Получите предварительный макет в течение 24–48 часов для утверждения,<br>
-    затем мы отправим ваш портрет!
+    ⏱ В течение 24–48 часов вы получите предварительный макет на утверждение.<br>
+    📦 После одобрения мы отправим ваш заказ!
   </p>
 </div>
     <section id="gallery-4" class="gallery section">
