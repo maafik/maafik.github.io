@@ -139,6 +139,13 @@
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     }
 
+    @media (max-width: 600px) {
+  .form-container {
+    max-width: 100%;
+  }
+}
+
+
     input, select {
       width: 100%;
       padding: 10px;
@@ -157,14 +164,22 @@
       flex-wrap: wrap;
       margin-top: 20px;
     }
+    @media (max-width: 480px) {
+  .product-option {
+    width: 100%;
+  }
+}
 
-    .product-option {
-      cursor: pointer;
-      border: 3px solid transparent;
-      border-radius: 10px;
-      transition: border 0.3s;
-      max-width: 180px;
-    }
+.product-option {
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  transition: border 0.3s;
+  max-width: 180px;
+  width: calc(50% - 10px); /* два в ряд с учетом gap */
+  box-sizing: border-box;
+}
+
 
     .product-option:hover {
       border: 3px solid #9d62cf;
