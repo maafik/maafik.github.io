@@ -247,82 +247,6 @@
     </div>
   </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
-      const telegramChatId = "5929919501";
-
-      const startBtn = document.getElementById('startOrderBtn');
-      const productOverlay = document.getElementById('productOverlay');
-      const formOverlay = document.getElementById('formOverlay');
-      const productOptions = document.querySelectorAll('.product-option');
-      const selectedProductInput = document.getElementById('selectedProduct');
-      const formStep1 = document.getElementById('formStep1');
-      const formStep2 = document.getElementById('formStep2');
-      const orderForm = document.getElementById('orderForm');
-
-      startBtn.addEventListener('click', () => {
-        productOverlay.style.display = 'flex';
-      });
-
-      productOptions.forEach(option => {
-        option.addEventListener('click', () => {
-          const selectedProduct = option.dataset.product;
-          selectedProductInput.value = selectedProduct;
-          productOverlay.style.display = 'none';
-          formOverlay.style.display = 'flex';
-        });
-      });
-
-      productOverlay.onclick = (e) => {
-        if (e.target === productOverlay) {
-          productOverlay.style.display = 'none';
-        }
-      };
-
-      formOverlay.onclick = (e) => {
-        if (e.target === formOverlay) {
-          formOverlay.style.display = 'none';
-        }
-      };
-
-      orderForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const formData = new FormData(orderForm);
-const message = `Новый заказ:\n` +
-  `Товар: ${formData.get('product')}\n` +
-  `Имя: ${formData.get('name')}\n` +
-  `Телефон: ${formData.get('phone')}\n` +
-  `Связь: ${formData.get('contactMethod')}\n` +
-  `Размер: ${formData.get('size')}\n` +
-  `Описание принта: ${formData.get('description') || 'Не указано'}`;
-
-        try {
-          await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ chat_id: telegramChatId, text: message })
-          });
-
-          const files = formData.getAll('photos');
-          for (const file of files) {
-            const photoData = new FormData();
-            photoData.append('chat_id', telegramChatId);
-            photoData.append('photo', file);
-            await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
-              method: 'POST',
-              body: photoData
-            });
-          }
-
-          formStep1.style.display = 'none';
-          formStep2.style.display = 'block';
-        } catch (error) {
-          alert('Ошибка отправки формы. Попробуйте позже.');
-        }
-      });
-    });
-  </script>
 </body>
    
           </div>
@@ -333,23 +257,6 @@ const message = `Новый заказ:\n` +
         <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
 <section id="video-hero" class="video-hero" style="position: relative; height: 100vh; overflow: hidden;">
 <div style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
-  <iframe
-    src="https://iframe.videodelivery.net/8075d37d08964940aa2175eede6e2ad3?autoplay=true&muted=true&loop=true&controls=false&preload=auto"
-    allow="autoplay; fullscreen"
-    allowfullscreen
-    style="
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 100vw;
-      height: 100vh;
-      transform: translate(-50%, -50%);
-      object-fit: cover;
-      border: none;
-      pointer-events: none;
-      user-select: none;
-    "
-  ></iframe>
 </div>
 
 </section>
@@ -371,91 +278,6 @@ const message = `Новый заказ:\n` +
   </p>
 </div>
     <section id="gallery-4" class="gallery section">
-
-<body>
-
-<!-- Баннер -->
-<div id="popupBanner">
-  <div class="banner-content">
-    <button class="closeBtn" onclick="closeBanner()">×</button>
-    <img src="images/banner.jpg" alt="Баннер">
-    <div>
-      <button class="openFormButton">Заполнить форму</button>
-    </div>
-  </div>
-</div>
-
-<script>
-  let bannerShown = false;
-  const formOverlay = document.getElementById('formOverlay');
-  const openFormButtons = document.querySelectorAll('.openFormButton');
-
-  openFormButtons.forEach(button => {
-    button.onclick = () => {
-      // Показываем форму
-      formOverlay.style.display = 'flex';
-
-      // Закрываем баннер
-      closeBanner(false);
-
-      // Добавляем шаг истории
-      if (!history.state || !history.state.formOpen) {
-        history.pushState({ formOpen: true }, '', '#form');
-      }
-    };
-  });
-
-  function closeBanner(useHistoryBack = true) {
-    const banner = document.getElementById('popupBanner');
-    if (banner.style.display === 'flex') {
-      banner.style.display = 'none';
-      if (useHistoryBack && history.state?.bannerOpen) {
-        history.back();
-      }
-    }
-  }
-
-  function closeForm() {
-    formOverlay.style.display = 'none';
-    if (history.state?.formOpen) {
-      history.back();
-    }
-  }
-
-  function showBannerIfScrolledEnough() {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const windowHeight = window.innerHeight;
-    const documentHeight = document.documentElement.scrollHeight;
-    const scrollPercent = (scrollTop + windowHeight) / documentHeight;
-
-    if (scrollPercent >= 0.7 && !bannerShown) {
-      const banner = document.getElementById('popupBanner');
-      banner.style.display = 'flex';
-      bannerShown = true;
-      history.pushState({ bannerOpen: true }, '', '#banner');
-    }
-  }
-
-  window.addEventListener('popstate', (event) => {
-    const banner = document.getElementById('popupBanner');
-    const form = document.getElementById('formOverlay');
-
-    if (form.style.display === 'flex') {
-      form.style.display = 'none';
-    }
-
-    if (banner.style.display === 'flex') {
-      banner.style.display = 'none';
-    }
-  });
-
-  window.addEventListener('load', () => {
-    bannerShown = false;
-    window.addEventListener('scroll', showBannerIfScrolledEnough);
-  });
-</script>
-
-</body>
 
 
 

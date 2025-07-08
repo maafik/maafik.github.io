@@ -138,129 +138,77 @@
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
-  const telegramChatId = "5929919501";
-  const formOverlay = document.getElementById('formOverlay');
-  const openFormButton = document.getElementById('openFormButton');
-  const tattooForm = document.getElementById('tattooForm');
-  const formStep1 = document.getElementById('formStep1');
-  const formStep2 = document.getElementById('formStep2');
-  const genderSelect = document.getElementById('gender');
-  const chooseBtnWrapper = document.getElementById('chooseStyleBtnWrapper');
-  const galleryOverlay = document.getElementById('styleGallery');
-  const imageGallery = document.getElementById('imageGallery');
-  const selectedImagePreview = document.getElementById('selectedImagePreview');
+    document.addEventListener('DOMContentLoaded', () => {
+      const telegramToken = "7349206398:AAEthCsuxGhjdrvUOnFwFD478q7y474kRMM";
+      const telegramChatId = "5929919501";
 
-  let selectedImageSrc = ""; // сохраняет путь к выбранному образу
+      const startBtn = document.getElementById('startOrderBtn');
+      const productOverlay = document.getElementById('productOverlay');
+      const formOverlay = document.getElementById('formOverlay');
+      const productOptions = document.querySelectorAll('.product-option');
+      const selectedProductInput = document.getElementById('selectedProduct');
+      const formStep1 = document.getElementById('formStep1');
+      const formStep2 = document.getElementById('formStep2');
+      const orderForm = document.getElementById('orderForm');
 
-  if (openFormButton) {
-    openFormButton.onclick = () => {
-      formOverlay.style.display = 'flex';
-      if (!history.state || !history.state.formOpen) {
-        history.pushState({ formOpen: true }, '', '#form');
-      }
-    };
-  }
-
-  formOverlay.onclick = (e) => {
-    if (e.target === formOverlay) {
-      formOverlay.style.display = 'none';
-      if (history.state?.formOpen) {
-        history.back();
-      }
-    }
-  };
-
-  window.addEventListener('popstate', (event) => {
-    if (formOverlay.style.display === 'flex') {
-      formOverlay.style.display = 'none';
-    }
-  });
-
-  if (galleryOverlay) {
-    galleryOverlay.onclick = (e) => {
-      if (e.target === galleryOverlay) {
-        galleryOverlay.style.display = 'none';
-      }
-    };
-  }
-
-  genderSelect.addEventListener('change', () => {
-    const gender = genderSelect.value;
-    if (!gender) return chooseBtnWrapper.innerHTML = '';
-
-    chooseBtnWrapper.innerHTML = `<button type="button" class="button" id="chooseStyle">Выбрать образ</button>`;
-    document.getElementById('chooseStyle').onclick = () => {
-      imageGallery.innerHTML = '';
-      for (let i = 1; i <= 24; i++) {
-        const img = document.createElement('img');
-        img.src = `images/${gender}_${i}.jpg`;
-        img.onclick = () => {
-          selectedImageSrc = img.src;
-          selectedImagePreview.innerHTML = `<p>Выбранный образ:</p><img src="${img.src}" style="max-width: 100%; border-radius: 10px;" />`;
-          galleryOverlay.style.display = 'none';
-        };
-        imageGallery.appendChild(img);
-      }
-      galleryOverlay.style.display = 'flex';
-    };
-  });
-
-  const allOpenFormButtons = document.querySelectorAll('.openFormButton, .btn-order');
-  allOpenFormButtons.forEach(button => {
-    button.addEventListener('click', (e) => {
-      e.preventDefault();
-      formOverlay.style.display = 'flex';
-      if (!history.state || !history.state.formOpen) {
-        history.pushState({ formOpen: true }, '', '#form');
-      }
-    });
-  });
-
-  tattooForm.addEventListener('submit', async (e) => {
-    // Проверка: выбран ли образ
-    if (!selectedImageSrc) {
-      e.preventDefault();
-      alert('Пожалуйста, выберите образ перед отправкой формы.');
-      return;
-    }
-
-    e.preventDefault();
-    const formData = new FormData(tattooForm);
-
-    const message = `Новый заказ:\n` +
-      `Имя: ${formData.get('name')}\n` +
-      `Телефон: ${formData.get('phone')}\n` +
-      `Связь: ${formData.get('contactMethod')}\n` +
-      `Размер: ${formData.get('size')}\n` +
-      `Пол собаки: ${formData.get('gender')}\n` +
-      (selectedImageSrc ? `Выбранный образ: ${selectedImageSrc.split('/').pop()}\n` : '');
-
-    try {
-      await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ chat_id: telegramChatId, text: message })
+      startBtn.addEventListener('click', () => {
+        productOverlay.style.display = 'flex';
       });
 
-      const files = formData.getAll('photos');
-      for (const file of files) {
-        const photoData = new FormData();
-        photoData.append('chat_id', telegramChatId);
-        photoData.append('photo', file);
-        await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
-          method: 'POST',
-          body: photoData
+      productOptions.forEach(option => {
+        option.addEventListener('click', () => {
+          const selectedProduct = option.dataset.product;
+          selectedProductInput.value = selectedProduct;
+          productOverlay.style.display = 'none';
+          formOverlay.style.display = 'flex';
         });
-      }
+      });
 
-        ym(102483778, 'reachGoal', 'form_success');
+      productOverlay.onclick = (e) => {
+        if (e.target === productOverlay) {
+          productOverlay.style.display = 'none';
+        }
+      };
 
-      formStep1.style.display = 'none';
-      formStep2.style.display = 'block';
-    } catch (error) {
-      alert('Ошибка отправки формы. Попробуйте позже.');
-    }
-  });
-});
+      formOverlay.onclick = (e) => {
+        if (e.target === formOverlay) {
+          formOverlay.style.display = 'none';
+        }
+      };
+
+      orderForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const formData = new FormData(orderForm);
+const message = `Новый заказ:\n` +
+  `Товар: ${formData.get('product')}\n` +
+  `Имя: ${formData.get('name')}\n` +
+  `Телефон: ${formData.get('phone')}\n` +
+  `Связь: ${formData.get('contactMethod')}\n` +
+  `Размер: ${formData.get('size')}\n` +
+  `Описание принта: ${formData.get('description') || 'Не указано'}`;
+
+        try {
+          await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ chat_id: telegramChatId, text: message })
+          });
+
+          const files = formData.getAll('photos');
+          for (const file of files) {
+            const photoData = new FormData();
+            photoData.append('chat_id', telegramChatId);
+            photoData.append('photo', file);
+            await fetch(`https://api.telegram.org/bot${telegramToken}/sendPhoto`, {
+              method: 'POST',
+              body: photoData
+            });
+          }
+
+          formStep1.style.display = 'none';
+          formStep2.style.display = 'block';
+        } catch (error) {
+          alert('Ошибка отправки формы. Попробуйте позже.');
+        }
+      });
+    });
